@@ -211,6 +211,48 @@
   transition: .2s all ease-in;
 }
 
+.about-econGroup .left-Content {
+  background-color: #393131;
+}
+
+.about-econGroup .left-Content p {
+  color: #FCB401;
+}
+
+.about-econGroup .left-Content h1 {
+  color: #ffff;
+}
+
+.about-econGroup .left-Content span {
+  color: #ffffff95;
+}
+
+.about-econGroup .left-Content .button-about {
+  margin-top: 20px;
+  width: 158px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: .2s all ease-in;
+  transition: .2s all ease-in;
+  color: black;
+  border: 1px solid #A5A5A5;
+}
+
+.about-econGroup .left-Content .button-about:hover a {
+  color: #FCB401;
+}
+
+.about-econGroup .left-Content .button-about a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  -webkit-transition: .2s all ease-in;
+  transition: .2s all ease-in;
+}
+
 @media (max-width: 567px) {
   #header .logo {
     width: 50%;
@@ -239,7 +281,8 @@
     padding-top: 20px;
     padding-bottom: 20px;
     top: 68px;
-    left: -270px;
+    left: -309px;
+    right: -100px;
     height: 0;
     -webkit-box-shadow: 0px 0 20px 0px rgba(0, 0, 0, 0.115);
             box-shadow: 0px 0 20px 0px rgba(0, 0, 0, 0.115);
@@ -258,6 +301,7 @@
     padding: 6px;
     position: relative;
     z-index: 50;
+    width: 100%;
   }
   #header nav .bars ul li a::before {
     content: "";
@@ -272,12 +316,13 @@
     opacity: 0;
     visibility: hidden;
     z-index: -999;
-    border-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
   }
   #header nav .bars ul li a:hover::before {
     visibility: visible;
     opacity: 1;
-    width: 200px;
+    width: 300px;
   }
   .firstSection {
     padding-top: 10em;

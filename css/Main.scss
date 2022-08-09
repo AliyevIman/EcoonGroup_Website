@@ -1,5 +1,7 @@
 // @import "_responsive";
 
+
+//Header 
 #header {
 
     .logo {
@@ -67,13 +69,16 @@
             display: none;
 
             ul {
-           opacity: 0;
-           visibility: hidden;
+                opacity: 0;
+                visibility: hidden;
             }
         }
     }
 }
+//Header 
 
+
+// First Section 
 .firstSection {
     height: 500px;
     background-image: url("/image/image2.png");
@@ -123,9 +128,10 @@
         }
     }
 }
+// First Section 
 
 
-
+//About-section  Second Section 
 .about-section {
     background-color: #fff;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.193);
@@ -233,7 +239,54 @@
 
     }
 }
+//About-section  Second Section 
 
+
+//About Page Third Section 
+.about-econGroup{
+    .left-Content{
+        background-color: #393131;
+        p{
+            color:#FCB401;
+        }
+        h1{
+            color: #ffff;
+        }
+        span{
+            color: #ffffff95;
+        }
+        .button-about {
+            margin-top: 20px;
+            width: 158px;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            background-color: transparent;
+            cursor: pointer;
+            transition: .2s all ease-in;
+            color: black;
+            border: 1px solid #A5A5A5;
+
+            &:hover {
+
+                a {
+                    color: #FCB401;
+                }
+            }
+
+            a {
+
+                text-decoration: none;
+                font-size: 18px;
+                color: #fff ;
+                transition: .2s all ease-in;
+            }
+        }
+    }
+}
+
+
+//About Page Third Section 
 
 
 @media(max-width:567px) {
@@ -268,10 +321,12 @@
                     padding-top: 20px;
                     padding-bottom: 20px;
                     top: 68px;
-                    left: -270px;
+                    left: -309px;
+                    right: -100px;
                     height: 0;
                     box-shadow: 0px 0 20px 0px rgba(0, 0, 0, 0.115);
                     transition: .2s ease-in-out;
+
                     &.active {
                         // transform: translateX(-82%);
                         // display: block;
@@ -288,6 +343,7 @@
                             padding: 6px;
                             position: relative;
                             z-index: 50;
+                            width: 100%;
 
                             &::before {
                                 content: "";
@@ -301,14 +357,16 @@
                                 opacity: 0;
                                 visibility: hidden;
                                 z-index: -999;
-                                border-radius: 5px;
+                                border-bottom-right-radius: 5px;
+                                border-top-right-radius: 5px;
+                                // border-radius: 5px;
                             }
 
                             &:hover {
                                 &::before {
                                     visibility: visible;
                                     opacity: 1;
-                                    width: 200px;
+                                    width: 300px;
                                 }
                             }
                         }
@@ -321,9 +379,10 @@
 
     .firstSection {
         padding-top: 10em;
+
         .sectionContent {
             h1 {
-                font-size:35px;
+                font-size: 35px;
             }
 
             p {
