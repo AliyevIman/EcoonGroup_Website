@@ -344,6 +344,23 @@
                 font-weight: 650;
             }
         }
+        ul{
+            margin-left: 70px;
+            li{
+                &::before{
+                    content: "\2022";
+                    color:#FCB401 ;
+                    font-weight: bolder;
+                    display: inline-block; 
+                    width: 1em;
+                    margin-left: -1em;   
+                }
+                padding: 5px;
+                span{
+                    font-size: 18px;
+                }
+            }
+        }
     }
 }
 

@@ -292,6 +292,27 @@
   font-weight: 650;
 }
 
+.services .services-content ul {
+  margin-left: 70px;
+}
+
+.services .services-content ul li {
+  padding: 5px;
+}
+
+.services .services-content ul li::before {
+  content: "\2022";
+  color: #FCB401;
+  font-weight: bolder;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.services .services-content ul li span {
+  font-size: 18px;
+}
+
 @media (max-width: 567px) {
   #header .logo {
     width: 50%;
