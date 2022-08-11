@@ -1,4 +1,5 @@
 // @import "_responsive";
+// Cursor 
 .cursor {
     width: 50px;
     height: 50px;
@@ -16,7 +17,6 @@
   .cursor2 {
     width: 20px;
     z-index: 999999999;
-
     height: 20px;
     border-radius: 100%;
     background-color: black;
@@ -26,6 +26,10 @@
     pointer-events: none;
     transition: width .3s, height .3s, opacity .3s;
   }
+// Cursor 
+
+
+
 
 //Header 
 #header {
@@ -396,6 +400,7 @@
 
 //Services Section 
 
+// Project Section
 
 .project-section {
     padding: 5rem 0;
@@ -429,7 +434,7 @@
                 color: #A5A5A5;
                 display: inline-block;
                 cursor: pointer;
-                padding: 10px;
+                padding: 7px;
 
                 &.active {
                     color: black;
@@ -441,6 +446,10 @@
 
         .images {
             padding: 20px 10px;
+            img{
+                padding-right: 5px;
+                width:49% ;
+            }
         }
     }
 
@@ -473,9 +482,19 @@
         }
     }
 }
+// Project Section
 
 
-
+.european{
+    background-image: url("/image/European.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 17rem 0;
+    .euro-content{
+        color: #ffff;
+    }
+}
 
 
 
@@ -692,6 +711,7 @@
 
             .images {
                 img {
+                    width: 100%;
                     &:first-child {
                         display: none;
                     }
@@ -730,7 +750,7 @@
             .images {
                 img {
                     // padding-right: 5px;
-                    width: 50%;
+                    width: 49%;
                 }
             }
         }
