@@ -1,3 +1,5 @@
+"use strict";
+
 // NAv -menu toggle menu
 jQuery(document).ready(function ($) {
 
@@ -27,3 +29,18 @@ jQuery(document).ready(function ($) {
 // })
 
 // Tab Menu
+
+  $(function() {
+    $("#projects .images").hide();  
+    $("#projects .images").first().show();  
+
+    $("#projects .tab li").on("click", function() {
+      let sira = $(this).index();  
+
+      $("#projects .images").hide();  
+      $("#projects .images").eq(sira).show(); 
+      
+      $("#projects .tab li").removeClass("active"); 
+      $(this).addClass("active");  
+    });
+  });
