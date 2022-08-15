@@ -410,11 +410,36 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  padding: 17rem 0;
+  height: 663px;
 }
 
 .european .euro-content {
   color: #ffff;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  padding: 50px;
+}
+
+.european .euro-content h1 {
+  font-family: "PP Neue Machina";
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.european .euro-content p {
+  width: 50%;
 }
 
 @media (max-width: 567px) {
@@ -570,6 +595,23 @@
   }
   .project-section #projects .images img:first-child {
     display: none;
+  }
+  .european {
+    height: 100%;
+  }
+  .european .euro-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .european .euro-content h1 {
+    font-size: 32px;
+  }
+  .european .euro-content p {
+    width: 100%;
   }
 }
 

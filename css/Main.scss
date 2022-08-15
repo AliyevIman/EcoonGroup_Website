@@ -12,9 +12,9 @@
     top: 0;
     z-index: 999999999;
     transform: translate(calc(-50% + 15px), -50%);
-  }
-  
-  .cursor2 {
+}
+
+.cursor2 {
     width: 20px;
     z-index: 999999999;
     height: 20px;
@@ -25,7 +25,8 @@
     transform: translate(-50%, -50%);
     pointer-events: none;
     transition: width .3s, height .3s, opacity .3s;
-  }
+}
+
 // Cursor 
 
 
@@ -446,9 +447,10 @@
 
         .images {
             padding: 20px 10px;
-            img{
+
+            img {
                 padding-right: 5px;
-                width:49% ;
+                width: 49%;
             }
         }
     }
@@ -482,19 +484,44 @@
         }
     }
 }
+
 // Project Section
 
 
-.european{
+.european {
     background-image: url("/image/European.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding: 17rem 0;
-    .euro-content{
+    // padding: 17rem 0;
+
+    height: 663px;
+
+    .euro-content {
         color: #ffff;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: end;
+        padding: 50px;
+
+        h1 {
+            font-family: "PP Neue Machina";
+            font-size: 48px;
+            font-weight: bolder;
+        }
+        p{
+            width: 50%;
+        }
     }
 }
+
+
+
+
+
+
 
 
 
@@ -508,6 +535,8 @@
 //this is for responsive design
 
 @media(max-width:567px) {
+
+    // header responsive 
     #header {
         .logo {
             width: 50%;
@@ -595,6 +624,9 @@
 
     }
 
+    // header responsive 
+
+    //firstSection responsive
     .firstSection {
         padding-top: 10em;
 
@@ -609,6 +641,9 @@
         }
     }
 
+    //firstSection responsive
+
+    //about-section responsive
     .about-section {
         // padding-left: 0px;
         padding: 0%;
@@ -674,6 +709,9 @@
         }
     }
 
+    //about-section responsive
+
+    //about-econGroup responsive 
     .about-econGroup {
         padding-top: 4rem;
 
@@ -695,6 +733,9 @@
         }
     }
 
+    //about-econGroup responsive 
+
+    //project-section responsive
     .project-section {
         #projects {
             ul {
@@ -712,11 +753,28 @@
             .images {
                 img {
                     width: 100%;
+
                     &:first-child {
                         display: none;
                     }
                 }
 
+            }
+        }
+    }
+
+    //project-section responsive
+
+    .european{
+        height: 100%;
+        .euro-content{
+            display: flex;
+            justify-content: center;
+            h1{
+                font-size: 32px;
+            }
+            p{
+                width: 100%;
             }
         }
     }
