@@ -45,8 +45,6 @@ jQuery(document).ready(function ($) {
     });
   });
 /////Mose event
-// UPDATE: I was able to get this working again... Enjoy!
-
 var cursor = document.querySelector('.cursor');
 var cursorinner = document.querySelector('.cursor2');
 var a = document.querySelectorAll('a');
@@ -82,3 +80,21 @@ a.forEach(item => {
     cursor.classList.remove('hover');
   });
 })
+/////Mose event
+
+
+$("#footer .footer-head .left-body ul li p").click(function () {
+  $("#footer .footer-head .left-body ul li p").toggleClass("active");
+})
+
+$(function() {
+  $("#footer .footer-head .left-body ul li p").on("click", function() {
+    let sira = $(this).index();  
+
+    // $("#projects .images").hide();  
+    // $("#projects .images").eq(sira).show(); 
+    
+    $("#footer .footer-head .left-body ul li p").removeClass("active"); 
+    $(this).addClass("active");  
+  });
+});

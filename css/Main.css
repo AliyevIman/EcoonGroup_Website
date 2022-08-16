@@ -1,3 +1,142 @@
+.about-pages {
+  background-image: url("/image/inr-1.jpg");
+  height: 60vh;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: top left !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-pages .page-title {
+  color: #fff;
+  text-align: center;
+}
+
+.about-pages .page-title .title-head {
+  position: relative;
+}
+
+.about-pages .page-title .title-head h1 {
+  font-size: 35px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.about-pages .page-title .title-head h1::after {
+  content: "";
+  height: 5px;
+  position: absolute;
+  top: -5px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  background-color: #ffb703;
+  width: 65px;
+}
+
+.about-pages .page-title .title-mid p {
+  font-size: 16px;
+  line-height: 29px;
+}
+
+.about-pages .page-title ul {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 13px 30px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.about-pages .page-title ul li a {
+  position: relative;
+  padding-right: 30px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.about-pages .page-title ul li a::after {
+  content: "";
+  position: absolute;
+  background-color: #FCB401;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  right: 10px;
+  top: 5px;
+}
+
+.about-services {
+  padding: 8rem 0;
+  background-image: url("/image/about-second-bg.jpg");
+  background-position: center;
+  background-position: center center;
+}
+
+.about-services .right-about .sec-title .sub-text {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #010d14;
+  text-transform: uppercase;
+  font-family: Roboto;
+  margin: 0 0 10px;
+  display: block;
+  padding: 10px;
+}
+
+.about-services .right-about .sec-title .sub-text img {
+  margin-right: 7px;
+}
+
+.about-services .right-about .sec-title h2 {
+  font-size: 31px;
+  font-weight: 700;
+  color: #010d14;
+  line-height: 41px;
+}
+
+.about-services .right-about .sec-title p {
+  width: 80%;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #333333;
+  margin: 0;
+}
+
+.about-services .right-about .sec-title .y-middle {
+  margin-top: 30px;
+}
+
+.about-services .right-about .sec-title .y-middle .about-list li {
+  margin-top: 10px;
+}
+
+.about-services .right-about .sec-title .y-middle .about-list li i {
+  color: #fff;
+  padding: 3px;
+  background-color: #FCB401;
+  border-radius: 100%;
+}
+
+.about-services .right-about .sec-title .y-middle .about-list li span {
+  font-size: 18px;
+  line-height: 29px;
+  font-weight: 500;
+  color: #010d14;
+  padding-left: 5px;
+}
+
 .cursor {
   width: 50px;
   height: 50px;
@@ -10,23 +149,36 @@
   left: 0;
   top: 0;
   z-index: 999999999;
+  -webkit-transform: scale(1);
+          transform: scale(1);
   -webkit-transform: translate(calc(-50% + 15px), -50%);
           transform: translate(calc(-50% + 15px), -50%);
 }
 
 .cursor2 {
-  width: 20px;
+  width: 10px;
   z-index: 999999999;
-  height: 20px;
+  height: 10px;
   border-radius: 100%;
-  background-color: black;
-  opacity: .3;
+  background-color: #FCB401;
   position: fixed;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   pointer-events: none;
   -webkit-transition: width .3s, height .3s, opacity .3s;
   transition: width .3s, height .3s, opacity .3s;
+}
+
+.hover {
+  width: 70px;
+  height: 70px;
+  opacity: 0.5;
+}
+
+.cursorinnerhover {
+  width: 50px;
+  height: 50px;
+  opacity: .5;
 }
 
 #header .logo {
@@ -312,6 +464,10 @@
   font-size: 48px;
 }
 
+.services .services-content {
+  margin-top: 40px;
+}
+
 .services .services-content .insulation-hader img {
   padding: 5px;
   border: 1px solid #FCB401;
@@ -440,6 +596,111 @@
 
 .european .euro-content p {
   width: 50%;
+}
+
+#footer .footer-head {
+  padding: 2rem 0;
+}
+
+#footer .footer-head .left-footer .left-head p {
+  color: #FCB401;
+}
+
+#footer .footer-head .left-footer .left-head h1 {
+  font-weight: bolder;
+  font-family: 'PP Neue Machina';
+  font-size: 40px;
+  color: #393131;
+}
+
+#footer .footer-head .left-footer .left-body p {
+  color: #A5A5A5;
+}
+
+#footer .footer-head .left-footer .left-body ul li {
+  padding: 10px;
+}
+
+#footer .footer-head .left-footer .left-body ul li p {
+  cursor: pointer;
+}
+
+#footer .footer-head .left-footer .left-body ul li p.active {
+  color: black;
+}
+
+#footer .footer-head .left-footer .left-body .e-mail {
+  color: #FCB401;
+}
+
+#footer .footer-head .right-footer {
+  margin-top: 6rem;
+}
+
+#footer .footer-head .right-footer .button-submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+#footer .footer-head .right-footer .button-submit i {
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+#footer .footer-head .right-footer .button-submit .sendButton {
+  border: none;
+  background-color: #fff;
+  color: #A5A5A5;
+}
+
+#footer .footer-head .right-footer .button-submit:hover i {
+  color: red;
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+}
+
+#footer .footer-head .right-footer a {
+  display: inline-block;
+  padding-bottom: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #A5A5A5;
+  color: #FCB401;
+  text-decoration: none;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  margin-top: 10px;
+}
+
+#footer .footer-head .right-footer a:hover {
+  color: black;
+}
+
+#footer .footer-head .right-footer .fullName {
+  border: none;
+  border-bottom: 1px solid #A5A5A5;
+  outline: none;
+  width: 100%;
+  margin-top: 10px;
+}
+
+#footer .footer-bottom .footerLogo {
+  width: 150px;
+}
+
+#footer .footer-bottom p {
+  color: #A5A5A5;
+  font-size: 14px;
+}
+
+#footer .footer-bottom img {
+  width: 100px;
 }
 
 @media (max-width: 567px) {
@@ -612,6 +873,20 @@
   }
   .european .euro-content p {
     width: 100%;
+  }
+  #footer .footer-head .right-footer .button-submit {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  #footer .footer-bottom p {
+    margin: 10px 0;
+  }
+  #footer .footer-bottom a {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    margin: 10px 0;
   }
 }
 

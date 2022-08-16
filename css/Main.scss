@@ -1,30 +1,46 @@
-// @import "_responsive";
+// @use "/css/" as *;
+@import "./variable";
+@import "./about";
 // Cursor 
+
 .cursor {
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    border: 1px solid black;
+    border: 1px solid $qara;
     transition: all 200ms ease-out;
     position: fixed;
     pointer-events: none;
     left: 0;
     top: 0;
     z-index: 999999999;
+    transform: scale(1);
     transform: translate(calc(-50% + 15px), -50%);
 }
 
 .cursor2 {
-    width: 20px;
+    width: 10px;
     z-index: 999999999;
-    height: 20px;
+    height: 10px;
     border-radius: 100%;
-    background-color: black;
-    opacity: .3;
+    background-color: $sari;
+    // opacity: .3;
     position: fixed;
     transform: translate(-50%, -50%);
     pointer-events: none;
     transition: width .3s, height .3s, opacity .3s;
+}
+
+.hover {
+    width: 70px;
+    height: 70px;
+    opacity: 0.5;
+}
+
+.cursorinnerhover {
+    width: 50px;
+    height: 50px;
+    opacity: .5;
 }
 
 // Cursor 
@@ -34,7 +50,6 @@
 
 //Header 
 #header {
-
     .logo {
         margin: 20px;
 
@@ -129,7 +144,7 @@
         p {
             font-size: 24px;
             font-family: "inter";
-            color: #A5A5A5;
+            color: $grey;
         }
 
         .button {
@@ -143,10 +158,10 @@
             color: #ffff;
 
             &:hover {
-                background-color: #FCB401;
+                background-color: $sari;
 
                 a {
-                    color: black;
+                    color: $qara;
                 }
             }
 
@@ -180,7 +195,7 @@
         padding-left: 40px;
 
         p {
-            color: #FCB401;
+            color: $sari;
         }
 
         h1 {
@@ -198,11 +213,11 @@
             width: 60%;
             position: relative;
 
-            // border-right: 1px solid #A5A5A5;
+            // border-right: 1px solid $grey;
             &::before {
                 content: "";
                 width: 2px;
-                color: #A5A5A5;
+                color: $grey;
                 position: absolute;
                 top: 0%;
                 right: 0%;
@@ -236,7 +251,7 @@
                 }
 
                 span {
-                    color: #A5A5A5;
+                    color: $grey;
                     font-size: 16px;
                 }
 
@@ -249,13 +264,13 @@
                     background-color: transparent;
                     cursor: pointer;
                     transition: .2s all ease-in;
-                    color: black;
-                    border: 1px solid #A5A5A5;
+                    color: $qara;
+                    border: 1px solid $grey;
 
                     &:hover {
 
                         a {
-                            color: #FCB401;
+                            color: $sari;
                         }
                     }
 
@@ -263,7 +278,7 @@
 
                         text-decoration: none;
                         font-size: 18px;
-                        color: black;
+                        color: $qara;
                         transition: .2s all ease-in;
                     }
                 }
@@ -299,7 +314,7 @@
 
             span {
 
-                color: #FCB401;
+                color: $sari;
 
 
             }
@@ -313,13 +328,13 @@
                 background-color: transparent;
                 cursor: pointer;
                 transition: .2s all ease-in;
-                color: black;
-                border: 1px solid #A5A5A5;
+                color: $qara;
+                border: 1px solid $grey;
 
                 &:hover {
 
                     a {
-                        color: #FCB401;
+                        color: $sari;
                     }
                 }
 
@@ -350,7 +365,7 @@
 .services {
     .services-header {
         p {
-            color: #FCB401;
+            color: $sari;
             font-size: 14px;
 
         }
@@ -363,10 +378,12 @@
     }
 
     .services-content {
+        margin-top: 40px;
+
         .insulation-hader {
             img {
                 padding: 5px;
-                border: 1px solid #FCB401;
+                border: 1px solid $sari;
                 margin-right: 10px;
             }
 
@@ -382,7 +399,7 @@
             li {
                 &::before {
                     content: "\2022";
-                    color: #FCB401;
+                    color: $sari;
                     font-weight: bolder;
                     display: inline-block;
                     width: 1em;
@@ -408,7 +425,7 @@
 
     .project-header {
         p {
-            color: #FCB401;
+            color: $sari;
         }
 
         h1 {
@@ -423,7 +440,7 @@
             //     // width: 600px;
 
             //     height: 2px ;
-            //     background-color: #A5A5A5;
+            //     background-color: $grey;
             // }
         }
     }
@@ -432,13 +449,13 @@
         .tab {
 
             li {
-                color: #A5A5A5;
+                color: $grey;
                 display: inline-block;
                 cursor: pointer;
                 padding: 7px;
 
                 &.active {
-                    color: black;
+                    color: $qara;
                     cursor: pointer;
                     font-weight: bold;
                 }
@@ -465,13 +482,13 @@
         background-color: transparent;
         cursor: pointer;
         transition: .2s all ease-in;
-        color: black;
-        border: 1px solid #A5A5A5;
+        color: $qara;
+        border: 1px solid $grey;
 
         &:hover {
 
             a {
-                color: #FCB401;
+                color: $sari;
             }
         }
 
@@ -479,7 +496,7 @@
 
             text-decoration: none;
             font-size: 18px;
-            color: black;
+            color: $qara;
             transition: .2s all ease-in;
         }
     }
@@ -511,13 +528,131 @@
             font-size: 48px;
             font-weight: bolder;
         }
-        p{
+
+        p {
             width: 50%;
         }
     }
 }
 
 
+#footer {
+    .footer-head {
+        padding: 2rem 0;
+
+        .left-footer {
+
+            .left-head {
+                p {
+                    color: $sari;
+                }
+
+                h1 {
+                    font-weight: bolder;
+                    font-family: 'PP Neue Machina';
+                    font-size: 40px;
+                    color: #393131;
+                }
+            }
+
+            .left-body {
+                p {
+                    color: $grey;
+                }
+
+                ul {
+                    li {
+                        padding: 10px;
+
+                        p {
+                            cursor: pointer;
+
+                            &.active {
+                                color: $qara;
+                            }
+                        }
+                    }
+                }
+
+                .e-mail {
+                    color: $sari;
+                }
+            }
+        }
+
+        .right-footer {
+            margin-top: 6rem;
+
+            .button-submit {
+                display: flex;
+                justify-content: end;
+
+                i {
+                    transition: .2s ease-in-out;
+                    transform: translateX(0);
+                }
+
+                .sendButton {
+                    border: none;
+                    background-color: #fff;
+                    color: $grey;
+
+
+                }
+
+                &:hover {
+                    i {
+                        color: red;
+                        transform: translateX(20px);
+                    }
+                }
+
+            }
+
+            a {
+                display: inline-block;
+                padding-bottom: 10px;
+                width: 100%;
+                margin-bottom: 20px;
+                border-bottom: 1px solid $grey;
+                color: $sari;
+                text-decoration: none;
+                transition: .2s ease-in-out;
+                margin-top: 10px;
+
+                &:hover {
+                    color: $qara;
+                }
+
+            }
+
+            .fullName {
+                border: none;
+                border-bottom: 1px solid $grey;
+                outline: none;
+                width: 100%;
+                margin-top: 10px;
+            }
+
+
+        }
+    }
+
+    .footer-bottom {
+        .footerLogo {
+            width: 150px;
+        }
+
+        p {
+            color: $grey;
+            font-size: 14px;
+        }
+
+        img {
+            width: 100px;
+        }
+    }
+}
 
 
 
@@ -585,7 +720,7 @@
                     li {
                         a {
                             text-decoration: none;
-                            color: black;
+                            color: $qara;
                             display: inline-block;
                             padding: 6px;
                             position: relative;
@@ -599,7 +734,7 @@
                                 position: absolute;
                                 left: -20px;
                                 top: 5px;
-                                background-color: #FCB401;
+                                background-color: $sari;
                                 transition: .2s ease-in;
                                 opacity: 0;
                                 visibility: hidden;
@@ -765,19 +900,53 @@
 
     //project-section responsive
 
-    .european{
+    //europeans
+    .european {
         height: 100%;
-        .euro-content{
+
+        .euro-content {
             display: flex;
             justify-content: center;
-            h1{
+
+            h1 {
                 font-size: 32px;
             }
-            p{
+
+            p {
                 width: 100%;
             }
         }
     }
+
+    //europeans
+
+    //Footer responsive
+    #footer {
+        .footer-head {
+            .right-footer {
+                .button-submit {
+                    justify-content: start;
+                }
+            }
+        }
+
+        .footer-bottom {
+
+            p {
+                margin: 10px 0;
+
+            }
+
+            a {
+                justify-content: start;
+                margin: 10px 0;
+            }
+        }
+    }
+
+    //Footer responsive
+
+
 }
 
 @media(min-width:576px) and (max-width:768px) {
