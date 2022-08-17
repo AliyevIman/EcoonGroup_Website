@@ -535,6 +535,43 @@
     }
 }
 
+// OUr partners section
+.ourPartners {
+    padding: 2rem 0;
+
+    p {
+        color: $sari;
+    }
+
+    h1 {
+        font-family: "PP Neue Machina";
+        font-size: 40px;
+        font-weight: bolder;
+    }
+
+    .slider {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        border-radius: 5px;
+        background-color: #fff;
+
+        .slide {
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+
+            img {
+                display: block;
+                max-width: 100%;
+                width: 50%;
+                height: auto;
+            }
+        }
+    }
+}
+
+
+
+// OUr partners section
 
 #footer {
     .footer-head {
@@ -587,7 +624,7 @@
                 display: flex;
                 justify-content: end;
 
-                i {
+                span {
                     transition: .2s ease-in-out;
                     transform: translateX(0);
                 }
@@ -601,8 +638,8 @@
                 }
 
                 &:hover {
-                    i {
-                        color: red;
+                    span {
+                        color: $sari;
                         transform: translateX(20px);
                     }
                 }

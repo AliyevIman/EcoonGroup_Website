@@ -598,6 +598,44 @@
   width: 50%;
 }
 
+.ourPartners {
+  padding: 2rem 0;
+}
+
+.ourPartners p {
+  color: #FCB401;
+}
+
+.ourPartners h1 {
+  font-family: "PP Neue Machina";
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.ourPartners .slider {
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.ourPartners .slider .slide {
+  padding: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ourPartners .slider .slide img {
+  display: block;
+  max-width: 100%;
+  width: 50%;
+  height: auto;
+}
+
 #footer .footer-head {
   padding: 2rem 0;
 }
@@ -646,7 +684,7 @@
           justify-content: end;
 }
 
-#footer .footer-head .right-footer .button-submit i {
+#footer .footer-head .right-footer .button-submit span {
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
   -webkit-transform: translateX(0);
@@ -659,8 +697,8 @@
   color: #A5A5A5;
 }
 
-#footer .footer-head .right-footer .button-submit:hover i {
-  color: red;
+#footer .footer-head .right-footer .button-submit:hover span {
+  color: #FCB401;
   -webkit-transform: translateX(20px);
           transform: translateX(20px);
 }
