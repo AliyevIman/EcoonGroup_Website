@@ -6,27 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="vendors/css/bootstrap.css">
-
     <link rel="stylesheet" href="css/Main.css">
-    <!-- Fonts and Icons  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <!-- fancy box For Gallery  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <!-- fancy box For Gallery  -->
+
+    <!-- fonts and icons  -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <!-- Fonts and Icons  -->
+    <!-- fonts and icons  -->
+
+
 
     <title>xEconGroup</title>
+    <!-- Slick  -->
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <!-- Slick  -->
+
     <link rel="icon" href="image/" type="image/x-icon">
 </head>
 
 <body>
+
     <div class="cursor"></div>
     <div class="cursor2"></div>
     <!-- Header -->
@@ -46,17 +54,16 @@
                         <div class="nav-menu ">
                             <ul class="menu d-flex list-unstyled">
                                 <li><a class="Home" href="./index.html">Home</a></li>
-                                <li><a href="/about.html">About</a></li>
+                                <li><a href="./about.html">About</a></li>
                                 <li><a href="#contactUs">Contact</a></li>
                                 <li><a href="./gallery.html">Gallery</a></li>
                             </ul>
-
                         </div>
                         <div class="bars">
                             <img src="https://img.icons8.com/material/24/000000/menu--v1.png" />
                             <ul class=" list-unstyled nav-bar ">
                                 <li><a href="#">Home</a></li>
-                                <li><a href="/about.html">About</a></li>
+                                <li><a href="#">About</a></li>
                                 <li><a href="#">Contact</a></li>
                                 <li><a href="#">Services</a></li>
                             </ul>
@@ -67,15 +74,13 @@
         </div>
     </header>
     <!-- Header -->
-
-
     <!-- About firstPage -->
     <section>
-        <div class="about-pages">
+        <div style="background-image: url('/image/galleryBg.jpg')" class="about-pages">
             <div class="container">
                 <div class="page-title">
                     <div class="title-head">
-                        <h1>About Us</h1>
+                        <h1>Gallery</h1>
                     </div>
                     <div class="title-mid">
                         <p>Excepteur Sint Occaecat Cupidatat Non Proident, Sunt In Coulpa Qui Official <br>
@@ -86,7 +91,7 @@
                             <a href="./index.html">Home</a>
                         </li>
                         <li>
-                            About
+                            Gallery
                         </li>
                     </ul>
                 </div>
@@ -96,53 +101,67 @@
     <!-- About firstPage -->
 
     <section>
-        <div class="about-services">
+        <div class="gallery pt-120 pb-5 md-pt-5 md-pb-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <img class="img-fluid" src="image/about-service.png" alt="about-service">
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="right-about">
-                            <div class="sec-title ">
-                                <span class="sub-text ">
-                                    <img class="img-fluid" src="image/shape-1.png" alt="sahpe">
-                                    WHO ARE WE
-                                </span>
-                                <h2 class="pb-20"> Construction solutions <br> focused future ready
-                                </h2>
-                                <p>
-                                    Leverage agile frameworks to provide a robust synopsis for high level overviews.
-                                    Iterative approaches to corporate strategy data foster to collaborative thinking to
-                                    empowerment.
-                                </p>
-                                <div class="row y-middle">
-                                    <div class="col-lg-4 col-md-4 sm-mb-30">
-                                        <div class="about-img">
-                                            <img src="image/abt-ul.jpg" alt="aboutForUl">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-8 col-md-8">
-                                        <ul class="list-unstyled about-list">
-                                            <li>
-                                                <i class="fa-solid fa-check"></i>
-                                                <span>Pre-construction services</span>
-                                            </li>
-                                            <li>
-                                                <i class="fa-solid fa-check"></i>
-                                                <span>Industrial manufacturing
-                                                </span>
-                                            </li>
-                                            <li>
-                                                <i class="fa-solid fa-check"></i>
-                                                <span>uilding and construction</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="gallery-item">
+                            <div class="gallery-icon">
+                                <a data-fancybox="gallery" href="/image/gallery1.jpg">
+                                    <img class="img-fluid" src="/image/Gallery1gor.jpg" alt="Gallery1">
+                                </a>
 
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="gallery-item">
+                            <div class="gallery-icon">
+                                <a data-fancybox="gallery" href="/image/gallery2.jpg">
+                                    <img class="img-fluid" src="/image/gallery2gor.jpg" alt="Gallery1">
+                                </a>
 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="gallery-item">
+                            <div class="gallery-icon">
+                                <a data-fancybox="gallery" href="/image/gallery3.jpg">
+                                    <img class="img-fluid" src="/image/gallery3gor.jpg" alt="Gallery1">
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 md-mb-4 sm-mb-80">
+                        <div class="gallery-item">
+                            <div class="gallery-icon">
+                                <a data-fancybox="gallery" href="/image/gallery4.jpg">
+                                    <img class="img-fluid" src="/image/gallery4gor.jpg" alt="Gallery1">
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 sm-mb-80">
+                        <div class="gallery-item">
+                            <div class="gallery-icon">
+                                <a data-fancybox="gallery" href="/image/gallery5.jpg">
+                                    <img class="img-fluid" src="/image/gallery5gor.jpg" alt="Gallery1">
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 ">
+                        <div class="gallery-item">
+                            <div class="gallery-icon">
+                                <a data-fancybox="gallery" href="/image/gallery6.jpg">
+                                    <img class="img-fluid" src="/image/gallery6gor.jpg" alt="Gallery1">
+                                </a>
+
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -150,25 +169,17 @@
         </div>
     </section>
 
+    <hr>
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+    <!-- Foooter -->
     <footer id="footer">
 
-        <div id="contactUs" class="footer-head  p-9">
+        <div id="contactUs" class="footer-head p-9">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
@@ -200,11 +211,11 @@
                     <div class="col-lg-6">
                         <div class="right-footer ">
                             <!-- <input type="text" class="fullName" name="FullName" placeholder="Full name">
-                            <a class="" href="mailto:aliyeff510@gmail.com">aliyeff510@gmail.com</a>
-                            <input type="text" class="fullName" name="texthere" placeholder="Text your message here">
-                            <a class="sendEmail" href="mailto:aliyeff510@gmail.com">Send Message <img class="img-fluid" src="image/arrow-left.png" alt="arrow"> </a> -->
-                            <form action="mailto:aliyeff510@gmail.com" method="post" enctype=”multipart/form-data”
-                                name="EmailForm">
+                        <a class="" href="mailto:aliyeff510@gmail.com">aliyeff510@gmail.com</a>
+                        <input type="text" class="fullName" name="texthere" placeholder="Text your message here">
+                        <a class="sendEmail" href="mailto:aliyeff510@gmail.com">Send Message <img class="img-fluid" src="image/arrow-left.png" alt="arrow"> </a> -->
+                            <form action="mailto:info@econstructiongroup.com" method="post"
+                                enctype=”multipart/form-data” name="EmailForm">
                                 Name:<br>
                                 <input class="fullName" type=”text” placeholder="Full name" name=”ContactName”><br><br>
 
@@ -214,11 +225,12 @@
                                 </input> <br> <br>
 
                                 From This Email: <br>
-                                <a class="sendEmail" href="mailto:aliyeff510@gmail.com">aliyeff510@gmail.com</a>
+                                <a class="sendEmail"
+                                    href="mailto:info@econstructiongroup.com">info@econstructiongroup.com</a>
                                 <br><br>
 
                                 <div class="button-submit">
-                                    <input class="sendButton" type="submit" value="SendEmail">
+                                    <input class="sendButton" type="submit" value="Send Email">
                                     <span class="material-symbols-outlined">
                                         arrow_right_alt
                                     </span>
@@ -250,11 +262,27 @@
 
     </footer>
 
+    <!-- Foooter -->
 
 
+
+
+
+
+
+
+    <!-- Slick -->
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="./js/main.js"></script>
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!-- Slick -->
+
+
 </body>
 
 </html>

@@ -25,9 +25,10 @@
 }
 
 .about-pages .page-title .title-head h1 {
-  font-size: 35px;
+  font-size: 48px;
   font-weight: 700;
   padding: 20px;
+  font-family: Playfair Display;
 }
 
 .about-pages .page-title .title-head h1::after {
@@ -135,6 +136,72 @@
   font-weight: 500;
   color: #010d14;
   padding-left: 5px;
+}
+
+.gallery {
+  padding: 3rem 0;
+}
+
+.gallery .gallery-item:hover .gallery-icon a::after {
+  opacity: 0.75;
+  visibility: visible;
+  bottom: 0;
+}
+
+.gallery .gallery-item:hover .gallery-icon a::before {
+  visibility: visible;
+  opacity: 1;
+}
+
+.gallery .gallery-item .gallery-icon {
+  margin: 0 3px 0 3px;
+}
+
+.gallery .gallery-item .gallery-icon a {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+.gallery .gallery-item .gallery-icon a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -100%;
+  width: 100%;
+  height: 100%;
+  background: #010d14;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.gallery .gallery-item .gallery-icon a::before {
+  content: "+";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  color: #fff;
+  z-index: 2;
+  font-size: 50px;
+  font-weight: 200;
+}
+
+@media (max-width: 567px) {
+  .gallery .sm-mb-80 {
+    margin-bottom: 20px;
+  }
 }
 
 .cursor {
@@ -261,33 +328,30 @@
   color: #A5A5A5;
 }
 
-.firstSection .sectionContent .button {
+.firstSection .sectionContent .button a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffff;
+  display: inline-block;
+  width: 100%;
   width: 290px;
   height: 77px;
   line-height: 77px;
   text-align: center;
   background-color: #393131;
   cursor: pointer;
+  color: #ffff;
   -webkit-transition: .2s all ease-in;
   transition: .2s all ease-in;
-  color: #ffff;
 }
 
-.firstSection .sectionContent .button:hover {
+.firstSection .sectionContent .button a:hover {
   background-color: #FCB401;
 }
 
-.firstSection .sectionContent .button:hover a {
+.firstSection .sectionContent .button a:hover a {
   color: black;
-}
-
-.firstSection .sectionContent .button a {
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 24px;
-  color: #ffff;
-  -webkit-transition: .2s all ease-in;
-  transition: .2s all ease-in;
 }
 
 .about-section {
@@ -421,8 +485,11 @@
   color: #FCB401;
 }
 
-.about-econGroup .about-page .left-Content .button-about {
+.about-econGroup .about-page .left-Content .button-about a {
+  text-decoration: none;
+  font-size: 18px;
   margin-top: 20px;
+  display: inline-block;
   width: 158px;
   height: 50px;
   line-height: 50px;
@@ -431,20 +498,12 @@
   cursor: pointer;
   -webkit-transition: .2s all ease-in;
   transition: .2s all ease-in;
-  color: black;
+  color: #fff;
   border: 1px solid #A5A5A5;
 }
 
-.about-econGroup .about-page .left-Content .button-about:hover a {
+.about-econGroup .about-page .left-Content .button-about a:hover {
   color: #FCB401;
-}
-
-.about-econGroup .about-page .left-Content .button-about a {
-  text-decoration: none;
-  font-size: 18px;
-  color: #fff;
-  -webkit-transition: .2s all ease-in;
-  transition: .2s all ease-in;
 }
 
 .about-econGroup .about-page .right-image {
@@ -535,8 +594,12 @@
   width: 49%;
 }
 
-.project-section .project-button {
+.project-section .project-button a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
   margin-top: 20px;
+  display: inline-block;
   width: 100%;
   height: 50px;
   line-height: 50px;
@@ -549,16 +612,8 @@
   border: 1px solid #A5A5A5;
 }
 
-.project-section .project-button:hover a {
+.project-section .project-button a:hover {
   color: #FCB401;
-}
-
-.project-section .project-button a {
-  text-decoration: none;
-  font-size: 18px;
-  color: black;
-  -webkit-transition: .2s all ease-in;
-  transition: .2s all ease-in;
 }
 
 .european {
@@ -599,7 +654,7 @@
 }
 
 .ourPartners {
-  padding: 2rem 0;
+  padding: 4rem 0;
 }
 
 .ourPartners p {
@@ -610,6 +665,7 @@
   font-family: "PP Neue Machina";
   font-size: 40px;
   font-weight: bolder;
+  margin-bottom: 40px;
 }
 
 .ourPartners .slider {

@@ -29,27 +29,28 @@
 </head>
 
 <body>
-    <div class="cursor"></div>
-    <div class="cursor2"></div>
+
     <!-- Header -->
     <header class="header" id="header">
         <div class="container">
             <div class="d-flex justify-content-between">
                 <div class="col-lg-8">
                     <div class="logo">
-                        <img class="img-fluid" src="image/Logo.png" alt="EconLogo">
+                        <a href="/">
+                            <img class="img-fluid" src="image/Logo.png" alt="EconLogo">
+
+                        </a>
                     </div>
                 </div>
                 <nav>
                     <div class="col-lg-4">
                         <div class="nav-menu ">
                             <ul class="menu d-flex list-unstyled">
-                                <li><a class="Home" href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">Services</a></li>
+                                <li><a class="Home" href="./index.html">Home</a></li>
+                                <li><a href="./about.html">About</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="./gallery.html">Gallery</a></li>
                             </ul>
-
                         </div>
                         <div class="bars">
                             <img src="https://img.icons8.com/material/24/000000/menu--v1.png" />
@@ -75,7 +76,7 @@
                     <h1>We Are Building The Future</h1>
                     <p>Providing all kind of construction services</p>
                     <div class="button">
-                        <a href="#">Get A Quote</a>
+                        <a href="#contactUs">Get A Quote</a>
                     </div>
                 </div>
             </div>
@@ -106,9 +107,7 @@
 
                                     <span>We are negotiating on the project, and after reaching an agreement, we are
                                         preparing for its implementation</span>
-                                    <div class="button">
-                                        <a href="#">Read More</a>
-                                    </div>
+                                   
                                 </div>
                             </div>
 
@@ -125,9 +124,7 @@
                                     <span>We recruit qualified personnel for the planned project and, if necessary,
                                         train them
                                     </span>
-                                    <div class="button">
-                                        <a href="#">Read More</a>
-                                    </div>
+                                  
                                 </div>
                             </div>
 
@@ -144,9 +141,7 @@
 
                                     <span>At the final stage, as the contractor, we delivery the project with maximum
                                         effort and fair price</span>
-                                    <div class="button">
-                                        <a href="#">Read More</a>
-                                    </div>
+                               
                                 </div>
                             </div>
 
@@ -344,7 +339,7 @@
 
                 </div>
                 <div class="project-button">
-                    <a href="#">See All Works</a>
+                    <a href="./gallery.html">See All Works</a>
                 </div>
             </div>
         </div>
@@ -370,10 +365,11 @@
             <p>See Our Partners</p>
             <h1>Our Partners</h1>
             <div class="slider">
-                <div class="slide img-fluid"><img src="image/TSC.png" alt="companies"></div>
+                <!-- <div class="slide img-fluid"><img src="image/TSC.png" alt="companies"></div> -->
                 <div class="slide img-fluid"><img src="image/referans.png" alt="companies"></div>
                 <div class="slide img-fluid"><img src="image/logo.svg" alt="companies"></div>
-                <!-- <div class="slide "><img src="image/madgroup.webp" alt="companies"></div> -->
+                <div class="slide img-fluid"><img src="image/rndvgroup.svg" alt="companies"></div>
+
                 <div class="slide img-fluid"><img src="image/Azmep.png" alt="companies"></div>
 
             </div>
@@ -381,11 +377,10 @@
 
     </section>
 
-
     <!-- Foooter -->
     <footer id="footer">
 
-        <div class="footer-head p-9">
+        <div id="contactUs" class="footer-head p-9">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
