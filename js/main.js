@@ -44,60 +44,7 @@ jQuery(document).ready(function ($) {
       $(this).addClass("active");  
     });
   });
-/////Mose event
-var cursor = document.querySelector('.cursor');
-var cursorinner = document.querySelector('.cursor2');
-var a = document.querySelectorAll('a');
 
-document.addEventListener('mousemove', function(e){
-  var x = e.clientX;
-  var y = e.clientY;
-  cursor.style.transform = `translate3d(calc(${e.clientX}px - 50%), calc(${e.clientY}px - 50%), 0)`
-});
-
-document.addEventListener('mousemove', function(e){
-  var x = e.clientX;
-  var y = e.clientY;
-  cursorinner.style.left = x + 'px';
-  cursorinner.style.top = y + 'px';
-});
-
-document.addEventListener('mousedown', function(){
-  cursor.classList.add('click');
-  cursorinner.classList.add('cursorinnerhover')
-});
-
-document.addEventListener('mouseup', function(){
-  cursor.classList.remove('click')
-  cursorinner.classList.remove('cursorinnerhover')
-});
-
-a.forEach(item => {
-  item.addEventListener('mouseover', () => {
-    cursor.classList.add('hover');
-  });
-  item.addEventListener('mouseleave', () => {
-    cursor.classList.remove('hover');
-  });
-})
-/////Mose event
-
-
-$("#footer .footer-head .left-body ul li p").click(function () {
-  $("#footer .footer-head .left-body ul li p").toggleClass("active");
-})
-
-$(function() {
-  $("#footer .footer-head .left-body ul li p").on("click", function() {
-    let sira = $(this).index();  
-
-    // $("#projects .images").hide();  
-    // $("#projects .images").eq(sira).show(); 
-    
-    $("#footer .footer-head .left-body ul li p").removeClass("active"); 
-    $(this).addClass("active");  
-  });
-});
 
 
 
@@ -144,3 +91,17 @@ $(document).ready(function(){
     
 })
 // Slick
+
+// Footer language tab menu
+$(function() {
+  $("#projects .images").first().show();  
+
+  $("#footer .footer-head .left-footer .left-body ul li p").on("click", function() {
+    let sira = $(this).index();  
+
+    
+    $("#footer .footer-head .left-footer .left-body ul li p").removeClass("active"); 
+    $(this).addClass("active");  
+  });
+});
+// Footer language tab menu

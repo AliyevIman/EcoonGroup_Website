@@ -149,9 +149,9 @@
         }
 
         .button {
-          
 
-           
+
+
 
             a {
                 text-decoration: none;
@@ -168,9 +168,10 @@
                 cursor: pointer;
                 color: #ffff;
                 transition: .2s all ease-in;
+
                 &:hover {
                     background-color: $sari;
-    
+
                     a {
                         color: $qara;
                     }
@@ -324,9 +325,9 @@
             }
 
             .button-about {
-               
 
-             
+
+
 
                 a {
 
@@ -344,9 +345,10 @@
                     color: #fff;
 
                     border: 1px solid $grey;
+
                     &:hover {
 
-                            color: $sari;
+                        color: $sari;
                     }
                 }
             }
@@ -478,9 +480,9 @@
 
     .project-button {
 
-      
 
-      
+
+
 
         a {
 
@@ -498,9 +500,10 @@
             transition: .2s all ease-in;
             color: $qara;
             border: 1px solid $grey;
+
             &:hover {
 
-                    color: $sari;
+                color: $sari;
             }
         }
     }
@@ -562,16 +565,22 @@
         background-color: #fff;
 
         .slide {
-            padding: 40px;
-            display: flex;
-            justify-content: center;
+        padding: 40px;
 
-            img {
-                display: block;
-                max-width: 100%;
-                width: 50%;
-                height: auto;
+
+            a {
+                display: inline;
+                text-decoration: none;
+                padding: 0%;
+
+                img {
+                    display: block;
+                    max-width: 100%;
+                    width: 50%;
+                    height: auto;
+                }
             }
+
         }
     }
 }
@@ -587,9 +596,11 @@
         .left-footer {
 
             .left-head {
-                p {
+                a {
+                    text-decoration: none;
                     color: $sari;
                 }
+              
 
                 h1 {
                     font-weight: bolder;
@@ -603,7 +614,84 @@
                 p {
                     color: $grey;
                 }
+                .icons{
+                    margin-top: 20px;
+                    a{
+                        text-decoration: none;
+                        display: inline-block;
+                        .wp{
+                            width: 40px;
+                            height: 40px;
+                            text-align: center;
+                            line-height:40px;
+                            border-radius: 50%;
+                            background-color:$grey ;
+                            transition: .2s ease-in-out;
+                            &:hover{
+                                background-color: #48C857;
+                            }
+                        }
+                        .insta{
+                            width: 40px;
+                            height: 40px;
+                            text-align: center;
+                            line-height:40px;
+                            border-radius: 50%;
+                            background-color:grey ;
+                            transition: .2s ease-in-out;
 
+                            &:hover{
+                                background-color: #FF30DF;
+                            }
+                        }
+                        .linkd{
+                            width: 40px;
+                            height: 40px;
+                            text-align: center;
+                            line-height:40px;
+                            border-radius: 50%;
+                            background-color:grey;
+                            transition: .2s ease-in-out;
+
+                            &:hover{
+                                background-color: #0A63BC;
+                            }
+                        }
+                        .face{
+                            width: 40px;
+                            height: 40px;
+                            text-align: center;
+                            line-height:40px;
+                            border-radius: 50%;
+                            background-color:grey;
+                            transition: .2s ease-in-out;
+
+                            &:hover{
+                                background-color: #0A63BC;
+                            }
+                        }
+                        i{
+                            margin: 10px;
+                            font-size: 24px;
+                            color: #fff;
+
+                        }
+                    }
+                }
+                .phone{
+                    display: inline;
+                    // padding-bottom: 10px;
+                    // width: 100%;
+                    // margin-bottom: 20px;
+                    color: $sari;
+                    text-decoration: none;
+                    transition: .2s ease-in-out;
+                    margin-top: 10px;
+    
+                    &:hover {
+                        color: $qara;
+                    }
+                }
                 ul {
                     li {
                         padding: 10px;
