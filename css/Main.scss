@@ -65,17 +65,6 @@
             .menu {
                 li {
 
-                    .Home {
-                        font-weight: bold;
-
-                        &::before {
-                            display: block;
-                            opacity: 1;
-                            visibility: visible;
-                            width: 60px;
-
-                        }
-                    }
 
                     a {
                         text-decoration: none;
@@ -565,7 +554,7 @@
         background-color: #fff;
 
         .slide {
-        padding: 40px;
+            padding: 40px;
 
 
             a {
@@ -600,7 +589,7 @@
                     text-decoration: none;
                     color: $sari;
                 }
-              
+
 
                 h1 {
                     font-weight: bolder;
@@ -614,63 +603,80 @@
                 p {
                     color: $grey;
                 }
-                .icons{
+                a{
+                    text-decoration: none;
+                    color: $sari;
+                    display: inline-block;
+                    transition: .2s ease-in-out;
+                    &:hover{
+                        color: $grey;
+                    }
+                }
+
+                .icons {
                     margin-top: 20px;
-                    a{
+
+                    a {
                         text-decoration: none;
                         display: inline-block;
-                        .wp{
+
+                        .wp {
                             width: 40px;
                             height: 40px;
                             text-align: center;
-                            line-height:40px;
+                            line-height: 40px;
                             border-radius: 50%;
-                            background-color:$grey ;
+                            background-color: $grey;
                             transition: .2s ease-in-out;
-                            &:hover{
+
+                            &:hover {
                                 background-color: #48C857;
                             }
                         }
-                        .insta{
+
+                        .insta {
                             width: 40px;
                             height: 40px;
                             text-align: center;
-                            line-height:40px;
+                            line-height: 40px;
                             border-radius: 50%;
-                            background-color:grey ;
+                            background-color: grey;
                             transition: .2s ease-in-out;
 
-                            &:hover{
+                            &:hover {
                                 background-color: #FF30DF;
                             }
                         }
-                        .linkd{
+
+                        .linkd {
                             width: 40px;
                             height: 40px;
                             text-align: center;
-                            line-height:40px;
+                            line-height: 40px;
                             border-radius: 50%;
-                            background-color:grey;
+                            background-color: grey;
                             transition: .2s ease-in-out;
 
-                            &:hover{
+                            &:hover {
                                 background-color: #0A63BC;
                             }
                         }
-                        .face{
+
+                        .face {
                             width: 40px;
                             height: 40px;
                             text-align: center;
-                            line-height:40px;
+                            line-height: 40px;
                             border-radius: 50%;
-                            background-color:grey;
+                            background-color: grey;
                             transition: .2s ease-in-out;
 
-                            &:hover{
+                            &:hover {
                                 background-color: #0A63BC;
                             }
                         }
-                        i{
+
+                        i {
                             margin: 10px;
                             font-size: 24px;
                             color: #fff;
@@ -678,8 +684,14 @@
                         }
                     }
                 }
-                .phone{
+
+                .phone {
                     display: inline;
+
+                    p {
+                        margin-right: 5px;
+                    }
+
                     // padding-bottom: 10px;
                     // width: 100%;
                     // margin-bottom: 20px;
@@ -687,11 +699,12 @@
                     text-decoration: none;
                     transition: .2s ease-in-out;
                     margin-top: 10px;
-    
+
                     &:hover {
                         color: $qara;
                     }
                 }
+
                 ul {
                     li {
                         padding: 10px;
@@ -707,7 +720,16 @@
                 }
 
                 .e-mail {
-                    color: $sari;
+                    color: $grey;
+
+                    span {
+                        color: $sari;
+                        transition: .2s ease-in-out;
+                        &:hover {
+                            color: $qara;
+                        }
+                    }
+
                 }
             }
         }
