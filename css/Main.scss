@@ -4,33 +4,6 @@
 @import "./gallery";
 // Cursor 
 
-.cursor {
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    border: 1px solid $qara;
-    transition: all 200ms ease-out;
-    position: fixed;
-    pointer-events: none;
-    left: 0;
-    top: 0;
-    z-index: 999999999;
-    transform: scale(1);
-    transform: translate(calc(-50% + 15px), -50%);
-}
-
-.cursor2 {
-    width: 10px;
-    z-index: 999999999;
-    height: 10px;
-    border-radius: 100%;
-    background-color: $sari;
-    // opacity: .3;
-    position: fixed;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    transition: width .3s, height .3s, opacity .3s;
-}
 
 .hover {
     width: 70px;
@@ -549,7 +522,7 @@
     }
 
     .slider {
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.09);
         border-radius: 5px;
         background-color: #fff;
 
@@ -816,6 +789,10 @@
 
 
 
+
+
+
+
 //this is for responsive design
 
 @media(max-width:567px) {
@@ -922,6 +899,14 @@
             p {
                 font-size: 20px;
             }
+            .button{
+                a{
+                    width: 170px;
+                    height: 60px;
+                    font-size: 18px;
+                    line-height: 60px;
+                }
+            }
         }
     }
 
@@ -998,11 +983,11 @@
     //about-econGroup responsive 
     .about-econGroup {
         padding-top: 4rem;
+        padding: 2rem 0 2rem 2rem;
 
         .about-page {
             min-width: 100%;
             padding: 2rem 0 2rem 2rem;
-
             .left-Content {
 
                 p {
@@ -1099,6 +1084,8 @@
 }
 
 @media(min-width:576px) and (max-width:768px) {
+
+
     .about-section {
         .about-Content {
             .content-box {
