@@ -603,12 +603,14 @@
                 p {
                     color: $grey;
                 }
-                a{
+
+                a {
                     text-decoration: none;
                     color: $sari;
                     display: inline-block;
                     transition: .2s ease-in-out;
-                    &:hover{
+
+                    &:hover {
                         color: $grey;
                     }
                 }
@@ -686,20 +688,15 @@
                 }
 
                 .phone {
-                    display: inline;
-
-                    p {
-                        margin-right: 5px;
-                    }
-
-                    // padding-bottom: 10px;
-                    // width: 100%;
-                    // margin-bottom: 20px;
                     color: $sari;
                     text-decoration: none;
                     transition: .2s ease-in-out;
                     margin-top: 10px;
+                    display: inline-block;
 
+                    p {
+                        margin-right: 5px;
+                    }
                     &:hover {
                         color: $qara;
                     }
@@ -725,9 +722,8 @@
                     span {
                         color: $sari;
                         transition: .2s ease-in-out;
-                        &:hover {
-                            color: $qara;
-                        }
+
+                     
                     }
 
                 }

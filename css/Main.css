@@ -789,12 +789,12 @@
 }
 
 #footer .footer-head .left-footer .left-body .phone {
-  display: inline;
   color: #FCB401;
   text-decoration: none;
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
   margin-top: 10px;
+  display: inline-block;
 }
 
 #footer .footer-head .left-footer .left-body .phone p {
@@ -825,10 +825,6 @@
   color: #FCB401;
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
-}
-
-#footer .footer-head .left-footer .left-body .e-mail span:hover {
-  color: black;
 }
 
 #footer .footer-head .right-footer {
