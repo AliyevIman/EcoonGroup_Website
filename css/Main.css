@@ -1,5 +1,5 @@
 .about-pages {
-  background-image: url("/image/inr-1.jpg");
+  background-image: url("../image/inr-1.jpg");
   height: 60vh;
   background-repeat: no-repeat !important;
   background-size: cover !important;
@@ -78,7 +78,7 @@
 
 .about-services {
   padding: 8rem 0;
-  background-image: url("/image/about-second-bg.jpg");
+  background-image: url("../image/about-second-bg.jpg");
   background-position: center;
   background-position: center center;
 }
@@ -255,7 +255,7 @@
 
 .firstSection {
   height: 500px;
-  background-image: url("/image/image2.png");
+  background-image: url("../image/image2.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
