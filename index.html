@@ -32,6 +32,12 @@
 </head>
 
 <body>
+<div id="Top"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-up" width="40" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+    <line x1="12" y1="5" x2="12" y2="19" />
+    <line x1="16" y1="9" x2="12" y2="5" />
+    <line x1="8" y1="9" x2="12" y2="5" />
+  </svg></div>
 
     <!-- Header -->
     <header class="header" id="header">
@@ -58,10 +64,10 @@
                         <div class="bars">
                             <img src="https://img.icons8.com/material/24/000000/menu--v1.png" />
                             <ul class=" list-unstyled nav-bar ">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
+                                <li><a href="./index.html">Home</a></li>
+                                <li><a href="./about.html">About</a></li>
                                 <li><a href="#contact">Contact</a></li>
-                                <li><a href="#">Services</a></li>
+                                <li><a href="./gallery.html">Gallery</a></li>
                             </ul>
                         </div>
                     </div>
@@ -100,10 +106,10 @@
                 <div class="about-Content">
                     <div class="row ">
 
-                        <div class="col-lg-4 col-md-6 ">
+                        <div class="col-lg-4 col-md-6 col-sm-12 ">
                             <div class="content-box">
                                 <div class="content-header ">
-                                    <img class="vector-img" src="image/collection.svg" alt="Vector-first">
+                                    <img class="img-fluid" class="vector-img" src="image/collection.svg" alt="Vector-first">
                                 </div>
                                 <div class="content-body ">
                                     <p>Project Collection</p>
@@ -117,10 +123,10 @@
 
 
                         </div>
-                        <div class="col-lg-4 col-md-6">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="content-box">
                                 <div class="content-header content-2 ">
-                                    <img src="image/second.png" alt="Vector-first">
+                                    <img class="img-fluid" src="image/second.png" alt="Vector-first">
                                 </div>
                                 <div class="content-body">
                                     <p>Staffing & Recruiting</p>
@@ -134,10 +140,10 @@
 
 
                         </div>
-                        <div class="col-lg-4 col-md-6 ">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="content-box box-2 ">
-                                <div class="content-header ">
-                                    <img src="image/delivery.svg" alt="Vector-first">
+                                <div class="content-header content-3">
+                                    <img class="img-fluid" src="image/delivery.svg" alt="Vector-first">
                                 </div>
                                 <div class="content-body ">
                                     <p>Delivery & Price</p>
@@ -458,18 +464,15 @@
                             <a class="sendEmail" href="mailto:aliyeff510@gmail.com">Send Message <img class="img-fluid" src="image/arrow-left.png" alt="arrow"> </a> -->
                             <form action="mailto:info@econstructiongroup.com" method="post"
                                 enctype=”multipart/form-data” name="EmailForm">
-                                Name:<br>
                                 <input class="fullName" type=”text” placeholder="Full name" name=”ContactName”><br><br>
 
-                                Message:<br>
-                                <input class="fullName" type="text" name="texthere" placeholder="Message"
-                                    name=”ContactCommentt”>
-                                </input> <br> <br>
-
-                                To This Email: <br>
                                 <a class="sendEmail"
                                     href="mailto:info@econstructiongroup.com">info@econstructiongroup.com</a>
-                                <br><br>
+                                <br> 
+
+                                <input class="fullName" type="text" name="texthere" placeholder="Text your message here"
+                                    name=”ContactCommentt”>
+                                </input> <br> <br>
 
                                 <div class="button-submit">
                                     <input class="sendButton" type="submit" value="Send Email">

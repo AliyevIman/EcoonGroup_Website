@@ -204,6 +204,29 @@
   }
 }
 
+#Top {
+  position: absolute;
+  position: fixed;
+  right: 3%;
+  top: 90%;
+  z-index: 99999999999999999999;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 100%;
+  background-color: #FCB401;
+  color: #fff;
+  cursor: pointer;
+}
+
+#header {
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  z-index: 99999;
+}
+
 #header .logo {
   margin: 20px;
 }
@@ -217,16 +240,18 @@
 #header nav .nav-menu .menu li a {
   text-decoration: none;
   color: #393131;
-  display: inline-block;
+  display: block;
   margin-top: 40px;
   margin-right: 30px;
   position: relative;
+  height: 100%;
 }
 
 #header nav .nav-menu .menu li a::before {
   content: "";
   position: absolute;
-  top: 52px;
+  left: 0%;
+  top: 74%;
   width: 0;
   height: 3px;
   visibility: hidden;
@@ -239,7 +264,7 @@
 }
 
 #header nav .nav-menu .menu li a:hover::before {
-  width: 60px;
+  width: 100%;
   opacity: 1;
   visibility: visible;
 }
@@ -254,12 +279,12 @@
 }
 
 .firstSection {
-  height: 500px;
+  height: 700px;
   background-image: url("../image/image2.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 10rem 0;
+  padding: 20rem 0;
 }
 
 .firstSection .sectionContent h1 {
@@ -306,7 +331,7 @@
           box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.193);
   padding: 40px;
   padding-left: 100px;
-  margin-top: -100px;
+  margin-top: -60px;
   margin-bottom: 60px;
   position: relative;
   border-radius: 8px;
@@ -364,6 +389,10 @@
   background-color: #F0FAFF;
 }
 
+.about-section .about-Content .content-box .content-header.content-3 {
+  background-color: #EBFFE8;
+}
+
 .about-section .about-Content .content-box .content-body {
   padding-top: 20px;
 }
@@ -386,10 +415,12 @@
   background-color: #393131;
   padding: 4rem 0 4rem 4rem;
   width: 70%;
+  border-radius: 5px;
 }
 
 .about-econGroup .about-page .left-Content {
   line-height: 2rem;
+  padding: 10px;
 }
 
 .about-econGroup .about-page .left-Content p {
@@ -399,6 +430,7 @@
 
 .about-econGroup .about-page .left-Content h1 {
   color: #ffff;
+  margin: 10px 0 10px 0;
 }
 
 .about-econGroup .about-page .left-Content span {
@@ -497,6 +529,8 @@
   display: inline-block;
   cursor: pointer;
   padding: 7px;
+  -webkit-transition: .1s ease-in;
+  transition: .1s ease-in;
 }
 
 .project-section #projects .tab li.active {
@@ -537,7 +571,7 @@
 }
 
 .european {
-  background-image: url("/image/European.png");
+  background-image: url("../image/European.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -629,6 +663,7 @@
 
 #footer .footer-head .left-footer .left-body p {
   color: #A5A5A5;
+  margin: 10px 0 0 0;
 }
 
 #footer .footer-head .left-footer .left-body a {
@@ -637,6 +672,7 @@
   display: inline-block;
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
+  margin: 10px 0 10px 0;
 }
 
 #footer .footer-head .left-footer .left-body a:hover {
@@ -775,6 +811,13 @@
   transition: .2s ease-in-out;
   -webkit-transform: translateX(0);
           transform: translateX(0);
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 100%;
+  background-color: #FCB401;
+  text-align: center;
 }
 
 #footer .footer-head .right-footer .button-submit .sendButton {
@@ -784,7 +827,6 @@
 }
 
 #footer .footer-head .right-footer .button-submit:hover span {
-  color: #FCB401;
   -webkit-transform: translateX(20px);
           transform: translateX(20px);
 }
@@ -800,6 +842,7 @@
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 #footer .footer-head .right-footer a:hover {
@@ -839,6 +882,7 @@
   }
   #header nav .bars {
     display: block;
+    z-index: 9999;
   }
   #header nav .bars img {
     margin-top: 25px;
@@ -884,9 +928,6 @@
     position: absolute;
     left: -20px;
     top: 5px;
-    background-color: #FCB401;
-    -webkit-transition: .2s ease-in;
-    transition: .2s ease-in;
     opacity: 0;
     visibility: hidden;
     z-index: -999;
@@ -900,6 +941,7 @@
   }
   .firstSection {
     padding-top: 10em;
+    height: 500px;
   }
   .firstSection .sectionContent h1 {
     font-size: 35px;
@@ -923,31 +965,30 @@
     padding: 25px;
   }
   .about-section .about-Header h1 {
-    font-size: 25px;
+    font-size: 21px;
   }
   .about-section .about-Content {
-    padding: 0%;
-    padding-left: 64px;
+    padding: 20px;
   }
   .about-section .about-Content .content-box {
     text-align: center;
     margin-top: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    width: 100%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-left: 10px;
   }
   .about-section .about-Content .content-box .content-header {
     margin-right: 10px;
   }
   .about-section .about-Content .content-box .content-header .vector-img {
     padding: 12px;
+  }
+  .about-section .about-Content .content-box .content-body {
+    padding: 20px;
   }
   .about-section .about-Content .content-box .content-body .button {
     width: 120px;
@@ -1015,7 +1056,7 @@
             justify-content: center;
   }
   .european .euro-content h1 {
-    font-size: 32px;
+    font-size: 22px;
   }
   .european .euro-content p {
     width: 100%;
@@ -1029,13 +1070,16 @@
   .ourPartners .slider .slide a img {
     width: 100%;
   }
+  #footer .footer-head .left-footer .left-head h1 {
+    margin: 10px 0 10px 0;
+  }
   #footer .footer-head .right-footer .button-submit {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
   }
   #footer .footer-bottom p {
-    margin: 10px 0;
+    margin: 19px 0;
   }
   #footer .footer-bottom a {
     -webkit-box-pack: start;
@@ -1061,6 +1105,9 @@
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
+  #header nav .nav-menu ul li a::before {
+    top: 100%;
+  }
   .about-econGroup .about-page {
     width: 100%;
   }

@@ -105,8 +105,15 @@ $(function() {
   });
 });
 // Footer language tab menu
+
 $("a[href='#contact']").click(function() {
   window.scrollTo(0, document.body.scrollHeight);
+
+  return false;
+});
+
+$("#Top").click(function() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
 
   return false;
 });
