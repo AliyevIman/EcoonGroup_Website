@@ -204,18 +204,6 @@
   }
 }
 
-.hover {
-  width: 70px;
-  height: 70px;
-  opacity: 0.5;
-}
-
-.cursorinnerhover {
-  width: 50px;
-  height: 50px;
-  opacity: .5;
-}
-
 #header .logo {
   margin: 20px;
 }
@@ -223,6 +211,7 @@
 #header .logo img {
   -o-object-fit: cover;
      object-fit: cover;
+  width: 100%;
 }
 
 #header nav .nav-menu .menu li a {
@@ -387,32 +376,6 @@
 .about-section .about-Content .content-box .content-body span {
   color: #A5A5A5;
   font-size: 16px;
-}
-
-.about-section .about-Content .content-box .content-body .button {
-  margin-top: 20px;
-  width: 158px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  background-color: transparent;
-  cursor: pointer;
-  -webkit-transition: .2s all ease-in;
-  transition: .2s all ease-in;
-  color: black;
-  border: 1px solid #A5A5A5;
-}
-
-.about-section .about-Content .content-box .content-body .button:hover a {
-  color: #FCB401;
-}
-
-.about-section .about-Content .content-box .content-body .button a {
-  text-decoration: none;
-  font-size: 18px;
-  color: black;
-  -webkit-transition: .2s all ease-in;
-  transition: .2s all ease-in;
 }
 
 .about-econGroup {
@@ -630,10 +593,11 @@
           box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.09);
   border-radius: 5px;
   background-color: #fff;
+  padding-top: 10px;
 }
 
 .ourPartners .slider .slide {
-  padding: 40px;
+  padding: 40px 0 40px 40px;
 }
 
 .ourPartners .slider .slide a {
@@ -643,10 +607,8 @@
 }
 
 .ourPartners .slider .slide a img {
-  display: block;
   max-width: 100%;
   width: 50%;
-  height: auto;
 }
 
 #footer .footer-head {
@@ -1005,11 +967,26 @@
   }
   .about-econGroup .about-page {
     min-width: 100%;
-    padding: 2rem 0 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+  }
+  .about-econGroup .about-page .left-Content {
+    line-height: 28px;
+  }
+  .about-econGroup .about-page .left-Content span {
+    font: 15px;
+    margin-bottom: 20px;
+  }
+  .about-econGroup .about-page .left-Content h1 {
+    font-size: 22px;
   }
   .about-econGroup .about-page .left-Content p {
     text-align: justify;
-    font-size: 16px;
+    font-size: 14px;
+  }
+  .about-econGroup .about-page .left-Content .button-about a {
+    width: 128px;
+    height: 40px;
+    line-height: 40px;
   }
   .about-econGroup .about-page .right-image {
     display: none;
@@ -1041,6 +1018,15 @@
     font-size: 32px;
   }
   .european .euro-content p {
+    width: 100%;
+  }
+  .ourPartners .slider {
+    padding: 0%;
+  }
+  .ourPartners .slider .slide {
+    padding: 6rem;
+  }
+  .ourPartners .slider .slide a img {
     width: 100%;
   }
   #footer .footer-head .right-footer .button-submit {
