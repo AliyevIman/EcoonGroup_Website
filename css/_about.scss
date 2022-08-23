@@ -1,13 +1,14 @@
 //about's first page
 .about-pages {
     background-image: url("../image/inr-1.jpg");
-    height: 60vh;
+    height: 70vh;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: top left !important;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5rem;
 
     .page-title {
         color: #fff;
@@ -21,6 +22,7 @@
                 font-weight: 700;
                 padding: 20px;
                 font-family: Playfair Display;
+
                 &::after {
                     content: "";
                     height: 5px;
@@ -98,9 +100,10 @@
         .sec-title {
 
             .sub-text {
-                img{
+                img {
                     margin-right: 7px;
                 }
+
                 font-size: 16px;
                 font-weight: 600;
                 line-height: 1.3;

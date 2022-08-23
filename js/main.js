@@ -15,7 +15,7 @@ jQuery(document).ready(function ($) {
 
 // Tab Menu
 // $(document).ready(function(){
-	
+
 // 	$('ul.tabs li').click(function(){
 // 		var tab_id = $(this).attr('data-tab');
 
@@ -30,37 +30,36 @@ jQuery(document).ready(function ($) {
 
 // Tab Menu
 
-  $(function() {
-    $("#projects .images").hide();  
-    $("#projects .images").first().show();  
+$(function () {
+  $("#projects .images").hide();
+  $("#projects .images").first().show();
 
-    $("#projects .tab li").on("click", function() {
-      let sira = $(this).index();  
+  $("#projects .tab li").on("click", function () {
+    let sira = $(this).index();
 
-      $("#projects .images").hide();  
-      $("#projects .images").eq(sira).show(); 
-      
-      $("#projects .tab li").removeClass("active"); 
-      $(this).addClass("active");  
-    });
+    $("#projects .images").hide();
+    $("#projects .images").eq(sira).show();
+
+    $("#projects .tab li").removeClass("active");
+    $(this).addClass("active");
   });
+});
 
 
 
 
 // Slick
-$(document).ready(function(){
+$(document).ready(function () {
 
   $('.slider').slick({
     dots: true,
-    arrows:false,
+    arrows: false,
     infinite: true,
-    autoplay:true,
+    autoplay: true,
     speed: 200,
     slidesToShow: 4,
     slidesToScroll: 4,
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
@@ -88,32 +87,50 @@ $(document).ready(function(){
       // instead of a settings object
     ]
   });
-    
+
 })
 // Slick
 
 // Footer language tab menu
-$(function() {
-  $("#projects .images").first().show();  
+$(function () {
+  $("#projects .images").first().show();
 
-  $("#footer .footer-head .left-footer .left-body ul li p").on("click", function() {
-    let sira = $(this).index();  
+  $("#footer .footer-head .left-footer .left-body ul li p").on("click", function () {
+    let sira = $(this).index();
 
-    
-    $("#footer .footer-head .left-footer .left-body ul li p").removeClass("active"); 
-    $(this).addClass("active");  
+
+    $("#footer .footer-head .left-footer .left-body ul li p").removeClass("active");
+    $(this).addClass("active");
   });
 });
 // Footer language tab menu
 
-$("a[href='#contact']").click(function() {
+$("a[href='#contact']").click(function () {
   window.scrollTo(0, document.body.scrollHeight);
 
   return false;
 });
 
-$("#Top").click(function() {
-  window.scrollTo({ top: 0, behavior: "smooth" });
 
+// if($(window).width()>800){
+//   $("#Top").click(function () {
+//     window.scrollTo({
+//       top: 0,
+//       behavior: "smooth"
+//     });
+//     $("#Top").fadeIn(400,0);
+//     return false;
+//   });
+// }
+
+$(window).scroll(function(){
+  if ($(this).scrollTop() > 100) {
+    $('#Top').fadeIn();
+  } else {
+    $('#Top').fadeOut();
+  }
+});
+$('#Top').click(function(){
+  $('html, body').animate({scrollTop : 0},800);
   return false;
 });

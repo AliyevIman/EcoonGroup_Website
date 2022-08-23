@@ -1,6 +1,6 @@
 .about-pages {
   background-image: url("../image/inr-1.jpg");
-  height: 60vh;
+  height: 70vh;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: top left !important;
@@ -13,6 +13,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 5rem;
 }
 
 .about-pages .page-title {
@@ -204,6 +205,14 @@
   }
 }
 
+::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FCB401;
+}
+
 #Top {
   position: absolute;
   position: fixed;
@@ -251,7 +260,7 @@
   content: "";
   position: absolute;
   left: 0%;
-  top: 74%;
+  top: 88%;
   width: 0;
   height: 3px;
   visibility: hidden;
@@ -354,10 +363,12 @@
 
 .about-section .about-Content {
   padding: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about-section .about-Content .content-box {
-  width: 60%;
   position: relative;
 }
 
@@ -394,7 +405,7 @@
 }
 
 .about-section .about-Content .content-box .content-body {
-  padding-top: 20px;
+  padding: 10px 0  0 0;
 }
 
 .about-section .about-Content .content-box .content-body p {
@@ -414,7 +425,6 @@
 .about-econGroup .about-page {
   background-color: #393131;
   padding: 4rem 0 4rem 4rem;
-  width: 70%;
   border-radius: 5px;
 }
 
@@ -426,6 +436,7 @@
 .about-econGroup .about-page .left-Content p {
   color: #ffffff95;
   font-size: 18px;
+  padding: 0 50px 0 0;
 }
 
 .about-econGroup .about-page .left-Content h1 {
@@ -461,7 +472,11 @@
 .about-econGroup .about-page .right-image {
   position: absolute;
   right: 0%;
-  top: 4%;
+  top: 3%;
+}
+
+.about-econGroup .about-page .right-image img {
+  width: 80%;
 }
 
 .services .services-header p {
@@ -663,7 +678,6 @@
 
 #footer .footer-head .left-footer .left-body p {
   color: #A5A5A5;
-  margin: 10px 0 0 0;
 }
 
 #footer .footer-head .left-footer .left-body a {
@@ -672,7 +686,7 @@
   display: inline-block;
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
-  margin: 10px 0 10px 0;
+  margin: 0 0 10px 0;
 }
 
 #footer .footer-head .left-footer .left-body a:hover {
@@ -968,33 +982,32 @@
     font-size: 21px;
   }
   .about-section .about-Content {
-    padding: 20px;
+    padding: 20px 0 40px 29px;
   }
   .about-section .about-Content .content-box {
     text-align: center;
     margin-top: 20px;
-    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
   .about-section .about-Content .content-box .content-header {
     margin-right: 10px;
+    width: 129px;
+    height: 125px;
+    list-style: 125px;
+    margin-right: 20px;
   }
   .about-section .about-Content .content-box .content-header .vector-img {
     padding: 12px;
   }
-  .about-section .about-Content .content-box .content-body {
-    padding: 20px;
-  }
-  .about-section .about-Content .content-box .content-body .button {
-    width: 120px;
-  }
   .about-section .about-Content .content-box .content-body p {
     font-size: 16px;
+    width: 40%;
+    margin-left: 26px;
   }
   .about-section .about-Content .content-box .content-body span {
     display: none;
@@ -1004,11 +1017,11 @@
   }
   .about-econGroup {
     padding-top: 4rem;
-    padding: 2rem 0 2rem 2rem;
   }
   .about-econGroup .about-page {
     min-width: 100%;
-    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 0%;
+    padding: 2rem 0 2rem 2rem;
   }
   .about-econGroup .about-page .left-Content {
     line-height: 28px;
@@ -1124,7 +1137,11 @@
     width: 400px;
   }
   .about-econGroup .about-page .right-image {
-    top: 10%;
+    top: 15%;
+    right: 5%;
+  }
+  .about-econGroup .about-page .right-image img {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=Main.css.map */

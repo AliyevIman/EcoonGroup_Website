@@ -2,7 +2,12 @@
 @import "./variable";
 @import "./about";
 @import "./gallery";
-
+::-webkit-scrollbar{
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: $sari;
+}
 #Top {
     position: absolute;
     position: fixed;
@@ -55,7 +60,7 @@
                             content: "";
                             position: absolute;
                             left: 0%;
-                            top: 74%;
+                            top: 88%;
                             width: 0;
                             height: 3px;
                             visibility: hidden;
@@ -179,10 +184,12 @@
 
     .about-Content {
         padding: 40px;
+        justify-content: center;
 
         // width:60% !important;
         .content-box {
-            width: 60%;
+            // width: 60%;
+            // padding: 3rem;
             position: relative;
 
             // border-right: 1px solid $grey;
@@ -208,7 +215,7 @@
                 text-align: center;
                 background-color: #FFF6EA;
                 padding: 20px;
-
+                // margin-left: 70px;
                 &.content-2 {
                     background-color: #F0FAFF;
                 }
@@ -219,8 +226,9 @@
             }
 
             .content-body {
-                padding-top: 20px;
-
+                // padding: 20px 0 0 10px;
+                // text-align: center;
+                padding: 10px 0  0 0;
                 p {
                     font-size: 20px;
                     font-weight: bold;
@@ -248,7 +256,7 @@
     .about-page {
         background-color: #393131;
         padding: 4rem 0 4rem 4rem;
-        width: 70%;
+        // width: 70%; 
         border-radius: 5px;
 
         .left-Content {
@@ -258,6 +266,7 @@
             p {
                 color: #ffffff95;
                 font-size: 18px;
+                padding: 0 50px 0 0;
             }
 
             h1 {
@@ -306,7 +315,10 @@
         .right-image {
             position: absolute;
             right: 0%;
-            top: 4%;
+            top: 3%;
+            img{
+                width: 80%;
+            }
         }
     }
 
@@ -564,7 +576,6 @@
             .left-body {
                 p {
                     color: $grey;
-                    margin: 10px 0 0 0;
                 }
 
                 a {
@@ -572,7 +583,7 @@
                     color: $sari;
                     display: inline-block;
                     transition: .2s ease-in-out;
-                    margin: 10px 0 10px 0;
+                    margin: 0 0 10px 0;
 
                     &:hover {
                         color: $grey;
@@ -934,25 +945,25 @@
 
         .about-Content {
             // padding: 0%;
+            padding: 20px 0 40px 29px;
             // margin-left: 20px;
             // text-align: center;
             // padding: 0%;
-            padding: 20px;
-
+            // padding: 20px;
 
             .content-box {
                 text-align: center;
                 margin-top: 20px;
-                width: 100%;
-                // display: flex;
+                display: flex;
                 align-items: center;
-                justify-content: center;
 
                 .content-header {
                     margin-right: 10px;
-
                     // width: 500px;
-                 
+                    width: 129px;
+                    height: 125px;
+                    list-style: 125px;
+                    margin-right: 20px;
 
                     .vector-img {
                         padding: 12px;
@@ -960,17 +971,18 @@
                 }
 
                 .content-body {
-                    padding: 20px;
-
+                    // padding: 20px;
                     // padding-left: 10px;
-                    .button {
-                        width: 120px;
-
-                    }
 
                     p {
-                        // padding-left: 35px;
                         font-size: 16px;
+                        // display: inline;
+                        // padding: 20px;
+                        // margin-left: 10px;
+                        width: 40%;
+                        margin-left: 26px;
+                        // width: 50%;
+                        // text-align: center;
                     }
 
                     span {
@@ -990,11 +1002,13 @@
     //about-econGroup responsive 
     .about-econGroup {
         padding-top: 4rem;
-        padding: 2rem 0 2rem 2rem;
+        // padding: 2rem 0 2rem 2rem;
 
         .about-page {
             min-width: 100%;
-            padding: 2rem 2rem 2rem 2rem;
+            border-radius: 0%;
+
+            padding: 2rem 0 2rem 2rem;
 
             .left-Content {
                 line-height: 28px;
@@ -1219,7 +1233,11 @@
             }
 
             .right-image {
-                top: 10%;
+                top: 15%;
+                right: 5%;
+                img{
+                    width: 100%;
+                }
             }
         }
     }
