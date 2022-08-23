@@ -2,12 +2,15 @@
 @import "./variable";
 @import "./about";
 @import "./gallery";
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     background-color: transparent;
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
     background-color: $sari;
 }
+
 #Top {
     position: absolute;
     position: fixed;
@@ -215,6 +218,7 @@
                 text-align: center;
                 background-color: #FFF6EA;
                 padding: 20px;
+
                 // margin-left: 70px;
                 &.content-2 {
                     background-color: #F0FAFF;
@@ -228,7 +232,8 @@
             .content-body {
                 // padding: 20px 0 0 10px;
                 // text-align: center;
-                padding: 10px 0  0 0;
+                padding: 10px 0 0 0;
+
                 p {
                     font-size: 20px;
                     font-weight: bold;
@@ -251,22 +256,23 @@
 
 //About Page Third Section 
 .about-econGroup {
-    position: relative;
 
     .about-page {
-        background-color: #393131;
-        padding: 4rem 0 4rem 4rem;
         // width: 70%; 
-        border-radius: 5px;
+        position: relative;
 
         .left-Content {
+            // padding: 10px;
+            background-color: #393131;
+            padding: 7rem 0 4rem 7rem;
+            width: 70%;
+            // border-radius: 5px;
             line-height: 2rem;
-            padding: 10px;
 
             p {
                 color: #ffffff95;
                 font-size: 18px;
-                padding: 0 50px 0 0;
+                width: 70%;
             }
 
             h1 {
@@ -315,9 +321,11 @@
         .right-image {
             position: absolute;
             right: 0%;
-            top: 3%;
-            img{
-                width: 80%;
+            top: 4%;
+
+            img {
+                width: 100%;
+                object-fit: contain;
             }
         }
     }
@@ -813,8 +821,10 @@
 
     // header responsive 
     #header {
+
         .logo {
             width: 50%;
+            margin: 20px 0 20px 0;
         }
 
         nav {
@@ -899,6 +909,7 @@
     }
 
     // header responsive 
+
 
     //firstSection responsive
     .firstSection {
@@ -1002,16 +1013,22 @@
     //about-econGroup responsive 
     .about-econGroup {
         padding-top: 4rem;
+
         // padding: 2rem 0 2rem 2rem;
+        .container {
+            padding: 0%;
+            margin: 0%;
+        }
 
         .about-page {
             min-width: 100%;
             border-radius: 0%;
 
-            padding: 2rem 0 2rem 2rem;
-
             .left-Content {
                 line-height: 28px;
+                width: 100%;
+                padding: 0%;
+                padding: 1rem;
 
                 span {
                     font: 15px;
@@ -1025,6 +1042,7 @@
                 p {
                     text-align: justify;
                     font-size: 14px;
+                    width: 100%;
                 }
 
                 .button-about {
@@ -1170,6 +1188,14 @@
         .about-page {
             width: 100%;
 
+            .left-Content {
+                width: 100%;
+                padding: 2rem;
+                p{
+                    width: 100%;
+                }
+            }
+
             .right-image {
                 display: none;
             }
@@ -1235,7 +1261,8 @@
             .right-image {
                 top: 15%;
                 right: 5%;
-                img{
+
+                img {
                     width: 100%;
                 }
             }

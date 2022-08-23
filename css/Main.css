@@ -405,7 +405,7 @@
 }
 
 .about-section .about-Content .content-box .content-body {
-  padding: 10px 0  0 0;
+  padding: 10px 0 0 0;
 }
 
 .about-section .about-Content .content-box .content-body p {
@@ -418,25 +418,21 @@
   font-size: 16px;
 }
 
-.about-econGroup {
+.about-econGroup .about-page {
   position: relative;
 }
 
-.about-econGroup .about-page {
-  background-color: #393131;
-  padding: 4rem 0 4rem 4rem;
-  border-radius: 5px;
-}
-
 .about-econGroup .about-page .left-Content {
+  background-color: #393131;
+  padding: 7rem 0 4rem 7rem;
+  width: 70%;
   line-height: 2rem;
-  padding: 10px;
 }
 
 .about-econGroup .about-page .left-Content p {
   color: #ffffff95;
   font-size: 18px;
-  padding: 0 50px 0 0;
+  width: 70%;
 }
 
 .about-econGroup .about-page .left-Content h1 {
@@ -472,11 +468,13 @@
 .about-econGroup .about-page .right-image {
   position: absolute;
   right: 0%;
-  top: 3%;
+  top: 4%;
 }
 
 .about-econGroup .about-page .right-image img {
-  width: 80%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .services .services-header p {
@@ -887,6 +885,7 @@
 @media (max-width: 567px) {
   #header .logo {
     width: 50%;
+    margin: 20px 0 20px 0;
   }
   #header nav {
     position: relative;
@@ -1018,13 +1017,19 @@
   .about-econGroup {
     padding-top: 4rem;
   }
+  .about-econGroup .container {
+    padding: 0%;
+    margin: 0%;
+  }
   .about-econGroup .about-page {
     min-width: 100%;
     border-radius: 0%;
-    padding: 2rem 0 2rem 2rem;
   }
   .about-econGroup .about-page .left-Content {
     line-height: 28px;
+    width: 100%;
+    padding: 0%;
+    padding: 1rem;
   }
   .about-econGroup .about-page .left-Content span {
     font: 15px;
@@ -1036,6 +1041,7 @@
   .about-econGroup .about-page .left-Content p {
     text-align: justify;
     font-size: 14px;
+    width: 100%;
   }
   .about-econGroup .about-page .left-Content .button-about a {
     width: 128px;
@@ -1107,6 +1113,13 @@
     margin-top: 30px;
   }
   .about-econGroup .about-page {
+    width: 100%;
+  }
+  .about-econGroup .about-page .left-Content {
+    width: 100%;
+    padding: 2rem;
+  }
+  .about-econGroup .about-page .left-Content p {
     width: 100%;
   }
   .about-econGroup .about-page .right-image {
