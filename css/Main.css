@@ -13,7 +13,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 5rem;
 }
 
 .about-pages .page-title {
@@ -1029,7 +1028,7 @@
     line-height: 28px;
     width: 100%;
     padding: 0%;
-    padding: 1rem;
+    padding: 2rem;
   }
   .about-econGroup .about-page .left-Content span {
     font: 15px;
