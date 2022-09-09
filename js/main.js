@@ -11,7 +11,22 @@ jQuery(document).ready(function ($) {
 
 })
 // NAv -menu toggle menu
+$(document).ready(() => {
+  $('#Top').fadeOut()
+})
 
+$(window).scroll(function(){
+
+  if ($(this).scrollTop() > 500) {
+    $('#Top').fadeIn();
+  } else {
+    $('#Top').fadeOut();
+  }
+});
+$('#Top').click(function(){
+  $('html, body').animate({scrollTop : 0},800);
+  return false;
+});
 
 // Tab Menu
 // $(document).ready(function(){
@@ -123,14 +138,3 @@ $("a[href='#contact']").click(function () {
 //   });
 // }
 
-$(window).scroll(function(){
-  if ($(this).scrollTop() > 100) {
-    $('#Top').fadeIn();
-  } else {
-    $('#Top').fadeOut();
-  }
-});
-$('#Top').click(function(){
-  $('html, body').animate({scrollTop : 0},800);
-  return false;
-});
