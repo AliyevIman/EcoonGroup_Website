@@ -417,33 +417,47 @@
   font-size: 16px;
 }
 
-.about-econGroup .about-page {
+.third-section {
+  padding: 120px 0;
+}
+
+.third-section .about-page {
   position: relative;
 }
 
-.about-econGroup .about-page .left-Content {
+.third-section .about-page .left-Content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.third-section .about-page .left-Content .content {
+  width: 75%;
   background-color: #393131;
-  padding: 7rem 0 4rem 7rem;
-  width: 70%;
+  padding: 4rem 0rem 4rem 4rem;
   line-height: 2rem;
 }
 
-.about-econGroup .about-page .left-Content p {
+.third-section .about-page .left-Content .content p {
   color: #ffffff95;
   font-size: 18px;
-  width: 70%;
+  width: 58%;
+  text-align: justify;
 }
 
-.about-econGroup .about-page .left-Content h1 {
+.third-section .about-page .left-Content .content h1 {
   color: #ffff;
   margin: 10px 0 10px 0;
 }
 
-.about-econGroup .about-page .left-Content span {
+.third-section .about-page .left-Content .content span {
   color: #FCB401;
 }
 
-.about-econGroup .about-page .left-Content .button-about a {
+.third-section .about-page .left-Content .content .button-about a {
   text-decoration: none;
   font-size: 18px;
   margin-top: 20px;
@@ -460,20 +474,22 @@
   border: 1px solid #A5A5A5;
 }
 
-.about-econGroup .about-page .left-Content .button-about a:hover {
+.third-section .about-page .left-Content .content .button-about a:hover {
   color: #FCB401;
 }
 
-.about-econGroup .about-page .right-image {
+.third-section .about-page .left-Content .right-image {
+  width: 600px;
   position: absolute;
-  right: 0%;
-  top: 4%;
+  right: 0;
+  height: 400px;
 }
 
-.about-econGroup .about-page .right-image img {
-  width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+.third-section .about-page .left-Content .right-image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100% !important;
+  height: 100%;
 }
 
 .services .services-header p {
@@ -1013,43 +1029,6 @@
   .about-section .about-Content .content-box.box-2 {
     margin-top: 20px;
   }
-  .about-econGroup {
-    padding-top: 4rem;
-  }
-  .about-econGroup .container {
-    padding: 0%;
-    margin: 0%;
-  }
-  .about-econGroup .about-page {
-    min-width: 100%;
-    border-radius: 0%;
-  }
-  .about-econGroup .about-page .left-Content {
-    line-height: 28px;
-    width: 100%;
-    padding: 0%;
-    padding: 2rem;
-  }
-  .about-econGroup .about-page .left-Content span {
-    font: 15px;
-    margin-bottom: 20px;
-  }
-  .about-econGroup .about-page .left-Content h1 {
-    font-size: 22px;
-  }
-  .about-econGroup .about-page .left-Content p {
-    text-align: justify;
-    font-size: 14px;
-    width: 100%;
-  }
-  .about-econGroup .about-page .left-Content .button-about a {
-    width: 128px;
-    height: 40px;
-    line-height: 40px;
-  }
-  .about-econGroup .about-page .right-image {
-    display: none;
-  }
   .project-section #projects ul li:nth-child(2) {
     display: none;
   }
@@ -1129,31 +1108,61 @@
   }
 }
 
+@media (max-width: 768px) {
+  .content {
+    width: 100% !important;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 2rem !important;
+  }
+  .content h1 {
+    font-size: 25px;
+  }
+  .content p {
+    font-size: 15px !important;
+    line-height: 24px;
+    width: 100% !important;
+  }
+  .about-page {
+    width: 100% !important;
+  }
+  .about-page .right-image {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 992px) {
   #header nav .nav-menu ul li a::before {
     top: 100%;
   }
-  .about-econGroup .about-page {
+  .third-section .left-Content .content {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 2rem 0rem 2rem 4rem !important;
+  }
+  .third-section .left-Content .content h1 {
+    font-size: 25px;
+  }
+  .third-section .left-Content .content p {
+    font-size: 15px !important;
+    line-height: 24px;
+    width: 50% !important;
+  }
+  .third-section .about-page {
     width: 100%;
   }
-  .about-econGroup .about-page .right-image {
-    top: 20%;
+  .third-section .about-page .right-image {
+    width: 400px !important;
+    height: 300px !important;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1024px) {
-  .about-econGroup .about-page {
-    padding: 4rem 0 4rem 4rem;
-  }
-  .about-econGroup .about-page .left-Content p {
-    width: 400px;
-  }
-  .about-econGroup .about-page .right-image {
-    top: 15%;
-    right: 5%;
-  }
-  .about-econGroup .about-page .right-image img {
+@media (min-width: 992px) and (max-width: 1440px) {
+  .third-section .about-page {
     width: 100%;
+  }
+  .third-section .about-page .right-image {
+    width: 500px !important;
   }
 }
 /*# sourceMappingURL=Main.css.map */
