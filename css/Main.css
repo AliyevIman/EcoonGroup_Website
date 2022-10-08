@@ -1,36 +1,27 @@
+@charset "UTF-8";
 .about-pages {
   background-image: url("../image/inr-1.jpg");
   height: 70vh;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: top left !important;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
 .about-pages .page-title {
   color: #fff;
   text-align: center;
 }
-
 .about-pages .page-title .title-head {
   position: relative;
 }
-
 .about-pages .page-title .title-head h1 {
   font-size: 48px;
   font-weight: 700;
   padding: 20px;
-  font-family: Playfair Display;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 .about-pages .page-title .title-head h1::after {
   content: "";
   height: 5px;
@@ -39,32 +30,29 @@
   margin: 0 auto;
   left: 0;
   right: 0;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   background-color: #ffb703;
   width: 65px;
 }
-
 .about-pages .page-title .title-mid p {
   font-size: 16px;
   line-height: 29px;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 .about-pages .page-title ul {
   background: rgba(255, 255, 255, 0.1);
   padding: 13px 30px;
   max-width: 300px;
   margin: 0 auto;
 }
-
 .about-pages .page-title ul li a {
   position: relative;
   padding-right: 30px;
   text-decoration: none;
   font-size: 14px;
   color: #ffffff;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 .about-pages .page-title ul li a::after {
   content: "";
   position: absolute;
@@ -82,7 +70,6 @@
   background-position: center;
   background-position: center center;
 }
-
 .about-services .right-about .sec-title .sub-text {
   font-size: 16px;
   font-weight: 600;
@@ -94,18 +81,16 @@
   display: block;
   padding: 10px;
 }
-
 .about-services .right-about .sec-title .sub-text img {
   margin-right: 7px;
 }
-
 .about-services .right-about .sec-title h2 {
   font-size: 31px;
   font-weight: 700;
   color: #010d14;
   line-height: 41px;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 .about-services .right-about .sec-title p {
   width: 80%;
   font-size: 16px;
@@ -113,60 +98,53 @@
   font-weight: 400;
   color: #333333;
   margin: 0;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 .about-services .right-about .sec-title .y-middle {
   margin-top: 30px;
 }
-
 .about-services .right-about .sec-title .y-middle .about-list li {
   margin-top: 10px;
 }
-
 .about-services .right-about .sec-title .y-middle .about-list li i {
   color: #fff;
   padding: 3px;
   background-color: #FCB401;
   border-radius: 100%;
 }
-
 .about-services .right-about .sec-title .y-middle .about-list li span {
   font-size: 18px;
   line-height: 29px;
   font-weight: 500;
   color: #010d14;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
   padding-left: 5px;
 }
 
 .gallery {
   padding: 3rem 0;
 }
-
 .gallery .gallery-item:hover .gallery-icon a::after {
   opacity: 0.75;
   visibility: visible;
   bottom: 0;
 }
-
 .gallery .gallery-item:hover .gallery-icon a::before {
   visibility: visible;
   opacity: 1;
 }
-
 .gallery .gallery-item .gallery-icon {
   margin: 0 3px 0 3px;
 }
-
 .gallery .gallery-item .gallery-icon a {
   position: relative;
   display: block;
   overflow: hidden;
-  -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   text-decoration: none !important;
   outline: none !important;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 .gallery .gallery-item .gallery-icon a::after {
   content: "";
   position: absolute;
@@ -177,20 +155,16 @@
   background: #010d14;
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-
 .gallery .gallery-item .gallery-icon a::before {
   content: "+";
   position: absolute;
   left: 50%;
   top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: 0.4s;
   transition: 0.4s;
   color: #fff;
   z-index: 2;
@@ -203,7 +177,6 @@
     margin-bottom: 20px;
   }
 }
-
 ::-webkit-scrollbar {
   background-color: transparent;
 }
@@ -217,7 +190,7 @@
   position: fixed;
   right: 3%;
   top: 90%;
-  z-index: 99999999999999999999;
+  z-index: 100000000000000020000;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -234,17 +207,14 @@
   width: 100%;
   z-index: 99999;
 }
-
 #header .logo {
   margin: 20px;
 }
-
 #header .logo img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
 }
-
 #header nav .nav-menu .menu li a {
   text-decoration: none;
   color: #393131;
@@ -253,8 +223,8 @@
   margin-right: 30px;
   position: relative;
   height: 100%;
+  font-family: "PPNeueMachina-InktrapUltrabold";
 }
-
 #header nav .nav-menu .menu li a::before {
   content: "";
   position: absolute;
@@ -267,20 +237,16 @@
   border-top-left-radius: 5px;
   opacity: 0;
   background-color: #393131;
-  -webkit-transition: .2s all ease-in;
-  transition: .2s all ease-in;
+  transition: 0.2s all ease-in;
 }
-
 #header nav .nav-menu .menu li a:hover::before {
   width: 100%;
   opacity: 1;
   visibility: visible;
 }
-
 #header nav .bars {
   display: none;
 }
-
 #header nav .bars ul {
   opacity: 0;
   visibility: hidden;
@@ -294,24 +260,22 @@
   background-size: cover;
   padding: 20rem 0;
 }
-
 .firstSection .sectionContent h1 {
-  font-family: 'PP Neue Machina Inktrap Ultrabold';
+  font-family: "PP Neue Machina Inktrap Ultrabold";
   font-size: 55px;
   font-weight: 700;
 }
-
 .firstSection .sectionContent p {
   font-size: 24px;
   font-family: "inter";
   color: #A5A5A5;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 .firstSection .sectionContent .button a {
   text-decoration: none;
   font-weight: 700;
   font-size: 24px;
-  color: #ffff;
+  color: white;
   display: inline-block;
   width: 100%;
   width: 290px;
@@ -320,23 +284,21 @@
   text-align: center;
   background-color: #393131;
   cursor: pointer;
-  color: #ffff;
-  -webkit-transition: .2s all ease-in;
-  transition: .2s all ease-in;
+  color: white;
+  transition: 0.2s all ease-in;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 .firstSection .sectionContent .button a:hover {
   background-color: #FCB401;
 }
-
 .firstSection .sectionContent .button a:hover a {
   color: black;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
 
 .about-section {
   background-color: #fff;
-  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.193);
-          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.193);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.193);
   padding: 40px;
   padding-left: 100px;
   margin-top: -60px;
@@ -345,32 +307,25 @@
   border-radius: 8px;
   max-width: 100% !important;
 }
-
 .about-section .about-Header {
   padding-left: 40px;
 }
-
 .about-section .about-Header p {
   color: #FCB401;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 .about-section .about-Header h1 {
-  font-family: 'PP Neue Machina';
+  font-family: "PP Neue Machina";
   font-weight: bolder;
   font-size: 32px;
 }
-
 .about-section .about-Content {
   padding: 40px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-
 .about-section .about-Content .content-box {
   position: relative;
 }
-
 .about-section .about-Content .content-box::before {
   content: "";
   width: 2px;
@@ -380,11 +335,9 @@
   right: 0%;
   height: 200px;
 }
-
 .about-section .about-Content .content-box.box-2 {
   border: none;
 }
-
 .about-section .about-Content .content-box .content-header {
   width: 180px;
   height: 140px;
@@ -394,73 +347,63 @@
   background-color: #FFF6EA;
   padding: 20px;
 }
-
 .about-section .about-Content .content-box .content-header.content-2 {
   background-color: #F0FAFF;
 }
-
 .about-section .about-Content .content-box .content-header.content-3 {
   background-color: #EBFFE8;
 }
-
 .about-section .about-Content .content-box .content-body {
   padding: 10px 0 0 0;
 }
-
 .about-section .about-Content .content-box .content-body p {
   font-size: 20px;
   font-weight: bold;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 .about-section .about-Content .content-box .content-body span {
   color: #A5A5A5;
   font-size: 16px;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
 
 .third-section {
   padding: 120px 0;
 }
-
 .third-section .about-page {
   position: relative;
 }
-
 .third-section .about-page .left-Content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 .third-section .about-page .left-Content .content {
   width: 75%;
   background-color: #393131;
   padding: 4rem 0rem 4rem 4rem;
   line-height: 2rem;
 }
-
 .third-section .about-page .left-Content .content p {
-  color: #ffffff95;
+  color: rgba(255, 255, 255, 0.5843137255);
   font-size: 18px;
   width: 58%;
   text-align: justify;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 .third-section .about-page .left-Content .content h1 {
-  color: #ffff;
+  color: white;
   margin: 10px 0 10px 0;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 .third-section .about-page .left-Content .content span {
   color: #FCB401;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 .third-section .about-page .left-Content .content .button-about a {
   text-decoration: none;
   font-size: 18px;
   margin-top: 20px;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
   display: inline-block;
   width: 158px;
   height: 50px;
@@ -468,23 +411,19 @@
   text-align: center;
   background-color: transparent;
   cursor: pointer;
-  -webkit-transition: .2s all ease-in;
-  transition: .2s all ease-in;
+  transition: 0.2s all ease-in;
   color: #fff;
   border: 1px solid #A5A5A5;
 }
-
 .third-section .about-page .left-Content .content .button-about a:hover {
   color: #FCB401;
 }
-
 .third-section .about-page .left-Content .right-image {
   width: 600px;
   position: absolute;
   right: 0;
   height: 400px;
 }
-
 .third-section .about-page .left-Content .right-image img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -495,46 +434,40 @@
 .services .services-header p {
   color: #FCB401;
   font-size: 14px;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 .services .services-header h1 {
-  font-family: 'PP Neue Machina';
+  font-family: "PP Neue Machina";
   font-weight: bolder;
   font-size: 48px;
 }
-
 .services .services-content {
   margin-top: 40px;
 }
-
 .services .services-content .insulation-hader img {
   padding: 5px;
   border: 1px solid #FCB401;
   margin-right: 10px;
 }
-
 .services .services-content .insulation-hader p {
   font-size: 22px;
   font-weight: 650;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 .services .services-content ul {
   margin-left: 70px;
 }
-
 .services .services-content ul li {
   padding: 5px;
 }
-
 .services .services-content ul li::before {
-  content: "\2022";
+  content: "•";
   color: #FCB401;
   font-weight: bolder;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
 }
-
 .services .services-content ul li span {
   font-size: 18px;
 }
@@ -542,40 +475,34 @@
 .project-section {
   padding: 5rem 0;
 }
-
 .project-section .project-header p {
   color: #FCB401;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 .project-section .project-header h1 {
-  font-style: "PP Neue Machina";
+  font-family: "PP Neue Machina Inktrap Ultrabold";
   font-weight: bolder;
 }
-
 .project-section #projects .tab li {
   color: #A5A5A5;
   display: inline-block;
   cursor: pointer;
   padding: 7px;
-  -webkit-transition: .1s ease-in;
-  transition: .1s ease-in;
+  transition: 0.1s ease-in;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 .project-section #projects .tab li.active {
   color: black;
   cursor: pointer;
   font-weight: bold;
 }
-
 .project-section #projects .images {
   padding: 20px 10px;
 }
-
 .project-section #projects .images img {
   padding-right: 5px;
   width: 49%;
 }
-
 .project-section .project-button a {
   text-decoration: none;
   font-size: 18px;
@@ -588,12 +515,11 @@
   text-align: center;
   background-color: transparent;
   cursor: pointer;
-  -webkit-transition: .2s all ease-in;
-  transition: .2s all ease-in;
+  transition: 0.2s all ease-in;
   color: black;
   border: 1px solid #A5A5A5;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 .project-section .project-button a:hover {
   color: #FCB401;
 }
@@ -605,69 +531,53 @@
   background-position: center center;
   height: 663px;
 }
-
 .european .euro-content {
-  color: #ffff;
+  color: white;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: end;
   padding: 50px;
 }
-
 .european .euro-content h1 {
   font-family: "PP Neue Machina";
   font-size: 48px;
   font-weight: bolder;
 }
-
 .european .euro-content p {
   width: 50%;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
 
 .ourPartners {
   padding: 4rem 0;
 }
-
 .ourPartners p {
   color: #FCB401;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 .ourPartners h1 {
   font-family: "PP Neue Machina";
   font-size: 40px;
   font-weight: bolder;
   margin-bottom: 40px;
 }
-
 .ourPartners .slider {
-  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.09);
-          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.09);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.09);
   border-radius: 5px;
   background-color: #fff;
   padding-top: 10px;
 }
-
 .ourPartners .slider .slide {
   padding: 40px 0 40px 40px;
 }
-
 .ourPartners .slider .slide a {
   display: inline;
   text-decoration: none;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
   padding: 0%;
 }
-
 .ourPartners .slider .slide a img {
   max-width: 100%;
   width: 50%;
@@ -676,45 +586,40 @@
 #footer .footer-head {
   padding: 2rem 0;
 }
-
 #footer .footer-head .left-footer .left-head a {
   text-decoration: none;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
   color: #FCB401;
 }
-
 #footer .footer-head .left-footer .left-head h1 {
   font-weight: bolder;
-  font-family: 'PP Neue Machina';
+  font-family: "PP Neue Machina Inktrap Ultrabold";
   font-size: 40px;
   color: #393131;
 }
-
 #footer .footer-head .left-footer .left-body p {
   color: #A5A5A5;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 #footer .footer-head .left-footer .left-body a {
   text-decoration: none;
   color: #FCB401;
   display: inline-block;
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
   margin: 0 0 10px 0;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 #footer .footer-head .left-footer .left-body a:hover {
   color: #A5A5A5;
 }
-
 #footer .footer-head .left-footer .left-body .icons {
   margin-top: 20px;
 }
-
 #footer .footer-head .left-footer .left-body .icons a {
   text-decoration: none;
   display: inline-block;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 #footer .footer-head .left-footer .left-body .icons a .wp {
   width: 40px;
   height: 40px;
@@ -722,29 +627,24 @@
   line-height: 40px;
   border-radius: 50%;
   background-color: #A5A5A5;
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
-
 #footer .footer-head .left-footer .left-body .icons a .wp:hover {
   background-color: #48C857;
 }
-
 #footer .footer-head .left-footer .left-body .icons a .insta {
   width: 40px;
   height: 40px;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
   background-color: grey;
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
-
 #footer .footer-head .left-footer .left-body .icons a .insta:hover {
   background-color: #FF30DF;
 }
-
 #footer .footer-head .left-footer .left-body .icons a .linkd {
   width: 40px;
   height: 40px;
@@ -752,14 +652,11 @@
   line-height: 40px;
   border-radius: 50%;
   background-color: grey;
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
-
 #footer .footer-head .left-footer .left-body .icons a .linkd:hover {
   background-color: #0A63BC;
 }
-
 #footer .footer-head .left-footer .left-body .icons a .face {
   width: 40px;
   height: 40px;
@@ -767,77 +664,58 @@
   line-height: 40px;
   border-radius: 50%;
   background-color: grey;
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
-
 #footer .footer-head .left-footer .left-body .icons a .face:hover {
   background-color: #0A63BC;
 }
-
 #footer .footer-head .left-footer .left-body .icons a i {
   margin: 10px;
   font-size: 24px;
   color: #fff;
 }
-
 #footer .footer-head .left-footer .left-body .phone {
   color: #FCB401;
   text-decoration: none;
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
   margin-top: 10px;
   display: inline-block;
 }
-
 #footer .footer-head .left-footer .left-body .phone p {
   margin-right: 5px;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 #footer .footer-head .left-footer .left-body .phone:hover {
   color: black;
 }
-
 #footer .footer-head .left-footer .left-body ul li {
   padding: 10px;
 }
-
 #footer .footer-head .left-footer .left-body ul li p {
   cursor: pointer;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 #footer .footer-head .left-footer .left-body ul li p.active {
   color: black;
 }
-
 #footer .footer-head .left-footer .left-body .e-mail {
   color: #A5A5A5;
 }
-
 #footer .footer-head .left-footer .left-body .e-mail span {
   color: #FCB401;
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 #footer .footer-head .right-footer {
   margin-top: 6rem;
 }
-
 #footer .footer-head .right-footer .button-submit {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  justify-content: end;
 }
-
 #footer .footer-head .right-footer .button-submit span {
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transition: 0.2s ease-in-out;
+  transform: translateX(0);
   color: #fff;
   width: 30px;
   height: 30px;
@@ -846,36 +724,30 @@
   background-color: #FCB401;
   text-align: center;
 }
-
 #footer .footer-head .right-footer .button-submit .sendButton {
   border: none;
   background-color: #fff;
   color: #A5A5A5;
 }
-
 #footer .footer-head .right-footer .button-submit:hover span {
-  -webkit-transform: translateX(20px);
-          transform: translateX(20px);
+  transform: translateX(20px);
 }
-
 #footer .footer-head .right-footer a {
   display: inline-block;
   padding-bottom: 10px;
   width: 100%;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
   margin-bottom: 20px;
   border-bottom: 1px solid #A5A5A5;
   color: #FCB401;
   text-decoration: none;
-  -webkit-transition: .2s ease-in-out;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
   margin-top: 10px;
   margin-bottom: 30px;
 }
-
 #footer .footer-head .right-footer a:hover {
   color: black;
 }
-
 #footer .footer-head .right-footer .fullName {
   border: none;
   border-bottom: 1px solid #A5A5A5;
@@ -883,16 +755,14 @@
   width: 100%;
   margin-top: 10px;
 }
-
 #footer .footer-bottom .footerLogo {
   width: 150px;
 }
-
 #footer .footer-bottom p {
   color: #A5A5A5;
   font-size: 14px;
+  font-family: "PP Neue Machina Inktrap Ultrabold";
 }
-
 #footer .footer-bottom img {
   width: 100px;
 }
@@ -930,10 +800,8 @@
     left: -309px;
     right: -100px;
     height: 0;
-    -webkit-box-shadow: 0px 0 20px 0px rgba(0, 0, 0, 0.115);
-            box-shadow: 0px 0 20px 0px rgba(0, 0, 0, 0.115);
-    -webkit-transition: .2s ease-in-out;
-    transition: .2s ease-in-out;
+    box-shadow: 0px 0 20px 0px rgba(0, 0, 0, 0.115);
+    transition: 0.2s ease-in-out;
   }
   #header nav .bars ul.active {
     opacity: 1;
@@ -947,6 +815,7 @@
     padding: 6px;
     position: relative;
     z-index: 50;
+    font-family: "PP Neue Machina Inktrap Ultrabold";
     width: 100%;
   }
   #header nav .bars ul li a::before {
@@ -973,27 +842,30 @@
   }
   .firstSection .sectionContent h1 {
     font-size: 35px;
+    font-family: "PP Neue Machina Inktrap Ultrabold";
   }
   .firstSection .sectionContent p {
     font-size: 20px;
+    font-family: "PP Neue Machina Inktrap Ultrabold";
   }
   .firstSection .sectionContent .button a {
     width: 170px;
     height: 60px;
     font-size: 18px;
     line-height: 60px;
+    font-family: "PP Neue Machina Inktrap Ultrabold";
   }
   .about-section {
     padding: 0%;
     margin: 0;
-    -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
   .about-section .about-Header {
     padding: 25px;
   }
   .about-section .about-Header h1 {
     font-size: 21px;
+    font-family: "PP Neue Machina Inktrap Ultrabold";
   }
   .about-section .about-Content {
     padding: 20px 0 40px 29px;
@@ -1001,12 +873,8 @@
   .about-section .about-Content .content-box {
     text-align: center;
     margin-top: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   .about-section .about-Content .content-box .content-header {
     margin-right: 10px;
@@ -1025,6 +893,7 @@
   }
   .about-section .about-Content .content-box .content-body span {
     display: none;
+    font-family: "PP Neue Machina Inktrap Ultrabold";
   }
   .about-section .about-Content .content-box.box-2 {
     margin-top: 20px;
@@ -1045,12 +914,8 @@
     height: 100%;
   }
   .european .euro-content {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
   }
   .european .euro-content h1 {
     font-size: 22px;
@@ -1064,6 +929,9 @@
   .ourPartners .slider .slide {
     padding: 6rem;
   }
+  .ourPartners .slider .slide a {
+    font-family: "PP Neue Machina Inktrap Ultrabold";
+  }
   .ourPartners .slider .slide a img {
     width: 100%;
   }
@@ -1071,21 +939,17 @@
     margin: 10px 0 10px 0;
   }
   #footer .footer-head .right-footer .button-submit {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
+    justify-content: start;
   }
   #footer .footer-bottom p {
     margin: 19px 0;
   }
   #footer .footer-bottom a {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
+    justify-content: start;
+    font-family: "PP Neue Machina Inktrap Ultrabold";
     margin: 10px 0;
   }
 }
-
 @media (min-width: 576px) and (max-width: 768px) {
   .about-section .about-Content .content-box.box-2 {
     margin-top: 30px;
@@ -1107,12 +971,10 @@
     width: 49%;
   }
 }
-
 @media (max-width: 768px) {
   .content {
     width: 100% !important;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     padding: 2rem !important;
   }
   .content h1 {
@@ -1130,14 +992,12 @@
     display: none;
   }
 }
-
 @media (min-width: 768px) and (max-width: 992px) {
   #header nav .nav-menu ul li a::before {
     top: 100%;
   }
   .third-section .left-Content .content {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     padding: 2rem 0rem 2rem 4rem !important;
   }
   .third-section .left-Content .content h1 {
@@ -1156,7 +1016,6 @@
     height: 300px !important;
   }
 }
-
 @media (min-width: 992px) and (max-width: 1440px) {
   .third-section .about-page {
     width: 100%;
@@ -1164,5 +1023,4 @@
   .third-section .about-page .right-image {
     width: 500px !important;
   }
-}
-/*# sourceMappingURL=Main.css.map */
+}/*# sourceMappingURL=Main.css.map */
