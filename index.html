@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="vendors/css/bootstrap.css">
     <link rel="stylesheet" href="css/Main.css">
+
     <!-- fonts and icons  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
@@ -22,18 +23,17 @@
     <!-- Slick  -->
     <link rel="stylesheet" href="slick/slick.css">
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
-
     <!-- Slick  -->
 
-    <link rel="icon" href="image/fav-icon.svg" type="image/x-icon">
-
-    <title>EconGroup</title>
     <meta name="decription"
         content="Econ Group doing  scaffolding,welding,insulation,Repair,European Construction Group LLC,RNDV Group,RND Industries,AzMep,TSC,Referans klinikasi,We Are Building The Future. Xaric de islemek imkani .Latviyada islemek . ">
     <meta property="og:title" content="We Are Building The Future">
     <meta property="keywords"
-     content="Econ Group scaffolding,welding,insulation,Repair,European Construction Group LLC,RNDV Group,RND Industries,AzMep,TSC,Referans klinikasi,We Are Building The Future">
+        content="Econ Group scaffolding,welding,insulation,Repair,European Construction Group LLC,RNDV Group,RND Industries,AzMep,TSC,Referans klinikasi,We Are Building The Future">
     <meta name="author" content="Iman Aliyev">
+    <link rel="icon" href="image/fav-icon.svg" type="image/x-icon">
+    <title>EconGroup</title>
+
 
 </head>
 
@@ -53,7 +53,7 @@
             <div class="d-flex justify-content-between">
                 <div class="col-lg-3">
                     <div class="logo">
-                        <a href="./index.html"title="Home">
+                        <a href="./index.html" title="Home">
                             <img class="img-fluid" src="image/logo-main.svg" alt="EconLogo">
 
                         </a>
@@ -64,7 +64,7 @@
                         <div class="nav-menu">
                             <ul class="menu d-flex list-unstyled">
                                 <li><a class="Home" href="./index.html" title="Home">Home</a></li>
-                                <li><a href="./about.html" title="About">About</a></li>
+                                <li><a href="./about.html" id="about" title="About">About</a></li>
                                 <li><a href="#contact" title="Contact">Contact</a></li>
                                 <li><a href="./gallery.html" title="Gallery">Gallery</a></li>
                             </ul>
@@ -73,13 +73,20 @@
                             <img src="https://img.icons8.com/material/24/000000/menu--v1.png" />
                             <ul class=" list-unstyled nav-bar ">
                                 <li><a href="./index.html" title="Home">Home</a></li>
-                                <li><a href="./about.html" title="About">About</a></li>
+                                <li><a href="./about-min.html" title="About">About</a></li>
                                 <li><a href="#contact" title="Contact">Contact</a></li>
                                 <li><a href="./gallery.html" title="Gallery">Gallery</a></li>
                             </ul>
                         </div>
                     </div>
                 </nav>
+                <form>
+                    Language:
+                    <select id="language">
+                        <option value="en" selected="selected">English</option>
+                        <option value="az">Azerbaijan</option>
+                    </select>
+                </form>
             </div>
         </div>
     </header>
@@ -90,8 +97,8 @@
         <div class="container">
             <div class="d-flex ">
                 <div class="sectionContent align-items-center justify-content-center ">
-                    <h1>We Are Building The Future</h1>
-                    <p>Providing all kind of construction services</p>
+                    <h1 id="welcome">We Are Building The Future</h1>
+                    <p id="providing">Providing all kind of construction services</p>
                     <div class="button">
                         <a href="#contact" title="Contact">Get A Quote</a>
                     </div>
@@ -231,89 +238,88 @@
     <!-- Image section  -->
 
     <!-- Services Section  -->
-     Insaat
-        <div class="services">
-            <div class="container">
-                <div class="services-header">
-                    <p>WHAT WE ARE OFFERING</p>
-                    <h1>Our Services</h1>
-                </div>
-                <div class="services-content">
-                    <div class="row">
-                        <!-- insulation -->
-                        <div class="col-lg-6">
-                            <div class="insulation-hader d-flex">
-                                <img class="img-fuild" src="image/insullation installig 1.svg" alt="insullation image">
-                                <p>Insulation Installing</p>
-                            </div>
-                            <ul class="list-unstyled">
-                                <div class="row">
-                                    <div class="col-lg-4">
-                                        <li><span>Blanket Insulation</span></li>
-                                        <li><span>Reflective System</span></li>
-                                        <li><span>Pipe Insulation</span></li>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <li><span>Fibrous</span></li>
-                                        <li><span>Cellular</span></li>
-                                        <li><span>Granular</span></li>
-                                    </div>
+    <div class="services">
+        <div class="container">
+            <div class="services-header">
+                <p>WHAT WE ARE OFFERING</p>
+                <h1>Our Services</h1>
+            </div>
+            <div class="services-content">
+                <div class="row">
+                    <!-- insulation -->
+                    <div class="col-lg-6">
+                        <div class="insulation-hader d-flex">
+                            <img class="img-fuild" src="image/insullation installig 1.svg" alt="insullation image">
+                            <p>Insulation Installing</p>
+                        </div>
+                        <ul class="list-unstyled">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <li><span>Blanket Insulation</span></li>
+                                    <li><span>Reflective System</span></li>
+                                    <li><span>Pipe Insulation</span></li>
                                 </div>
-                            </ul>
-                        </div>
-                        <!-- insulation -->
-
-                        <!-- Welding -->
-                        <div class="col-lg-6">
-                            <div class="insulation-hader d-flex">
-                                <img class="img-fluid" src="image/welding.svg" alt="insullation image">
-                                <p>Welding Production</p>
+                                <div class="col-lg-6">
+                                    <li><span>Fibrous</span></li>
+                                    <li><span>Cellular</span></li>
+                                    <li><span>Granular</span></li>
+                                </div>
                             </div>
-                            <ul class="list-unstyled">
-                                <li><span>TIG Welder</span></li>
-                                <li><span>MIG/MAG Welder</span></li>
-                                <li><span>Pipe Fitter</span></li>
-
-                            </ul>
-                        </div>
-                        <!-- Welding -->
-                        <!-- Scaffolding -->
-                        <div class="col-lg-6">
-                            <div class="insulation-hader d-flex">
-                                <img class="img-fluid" src="image/scaffolding.svg" alt="insullation image">
-                                <p>Scaffolding Services</p>
-                            </div>
-                            <ul class="list-unstyled">
-                                <li><span>Suspended Scaffolds</span></li>
-                                <li><span>Supported Scaffolds</span></li>
-                                <li><span>Aerial Lifts</span></li>
-
-                            </ul>
-                        </div>
-                        <!-- Scaffolding -->
-
-                        <!-- Repair -->
-                        <div class="col-lg-6">
-                            <div class="insulation-hader d-flex">
-                                <img class="img-fluid" src="image/repair.svg" alt="insullation image">
-                                <p>Repair Service</p>
-                            </div>
-                            <ul class="list-unstyled">
-                                <li><span>Electrical/Mechanical Equipment</span></li>
-                                <li><span>Product Replacement</span></li>
-                                <li><span>Machinery Restoring</span></li>
-
-                            </ul>
-                        </div>
-                        <!-- Repair -->
-
+                        </ul>
                     </div>
+                    <!-- insulation -->
 
+                    <!-- Welding -->
+                    <div class="col-lg-6">
+                        <div class="insulation-hader d-flex">
+                            <img class="img-fluid" src="image/welding.svg" alt="insullation image">
+                            <p>Welding Production</p>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li><span>TIG Welder</span></li>
+                            <li><span>MIG/MAG Welder</span></li>
+                            <li><span>Pipe Fitter</span></li>
+
+                        </ul>
+                    </div>
+                    <!-- Welding -->
+                    <!-- Scaffolding -->
+                    <div class="col-lg-6">
+                        <div class="insulation-hader d-flex">
+                            <img class="img-fluid" src="image/scaffolding.svg" alt="insullation image">
+                            <p>Scaffolding Services</p>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li><span>Suspended Scaffolds</span></li>
+                            <li><span>Supported Scaffolds</span></li>
+                            <li><span>Aerial Lifts</span></li>
+
+                        </ul>
+                    </div>
+                    <!-- Scaffolding -->
+
+                    <!-- Repair -->
+                    <div class="col-lg-6">
+                        <div class="insulation-hader d-flex">
+                            <img class="img-fluid" src="image/repair.svg" alt="insullation image">
+                            <p>Repair Service</p>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li><span>Electrical/Mechanical Equipment</span></li>
+                            <li><span>Product Replacement</span></li>
+                            <li><span>Machinery Restoring</span></li>
+
+                        </ul>
+                    </div>
+                    <!-- Repair -->
 
                 </div>
+
+
             </div>
         </div>
-        <hr>
+    </div>
+    <hr>
     </section>
     <!-- Services Section  -->
 
@@ -448,7 +454,8 @@
                             <div class="left-body">
                                 <p>Interested work in Europe or other world countries Write to us!</p>
                                 <p>Our Office: </p>
-                                <a class="location" href="https://g.page/caspianplaza?share" title="caspian plaza location google map" target="_blank">Cəfər
+                                <a class="location" href="https://g.page/caspianplaza?share"
+                                    title="caspian plaza location google map" target="_blank">Cəfər
                                     Cabbarli ,44</a>
                                 <p>Language:</p>
                                 <ul class="list-unstyled d-flex ">
@@ -526,8 +533,10 @@
     <!-- Foooter -->
     <!-- Slick -->
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://raw.github.com/carhartl/jquery-cookie/master/jquery.cookie.js"></script>
     <script src="./js/main.js"></script>
- 
+    <script src="./js/multilang.js"></script>
+    <script src="./js/indexlang.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <!-- Slick -->
 </body>
