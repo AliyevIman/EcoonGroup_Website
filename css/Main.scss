@@ -58,7 +58,7 @@
                         margin-right: 30px;
                         position: relative;
                         height: 100%;
-                        font-family: 'PPNeueMachina-InktrapUltrabold';
+                        font-family: $fontInter;
 
                         &::before {
                             content: "";
@@ -96,7 +96,7 @@
                 visibility: hidden;
             }
         }
-        
+
     }
 }
 
@@ -114,16 +114,17 @@
 
     .sectionContent {
         h1 {
-            font-family: 'PP Neue Machina Inktrap Ultrabold';
+            font-family: $fontPP;
             font-size: 55px;
+            font-style: normal;
             font-weight: 700;
+            color: #393131;
         }
 
         p {
             font-size: 24px;
-            font-family: "inter";
             color: $grey;
-            font-family: 'PP Neue Machina Inktrap Ultrabold';
+            font-family: $fontInter;
 
         }
 
@@ -147,7 +148,7 @@
                 cursor: pointer;
                 color: #ffff;
                 transition: .2s all ease-in;
-                font-family: 'PP Neue Machina Inktrap Ultrabold';
+                font-family: $fontInter;
 
 
                 &:hover {
@@ -155,7 +156,7 @@
 
                     a {
                         color: $qara;
-                        font-family: 'PP Neue Machina Inktrap Ultrabold';
+                        font-family: $fontPP;
 
                     }
                 }
@@ -184,12 +185,12 @@
 
         p {
             color: $sari;
-            font-family: 'PP Neue Machina Inktrap Ultrabold';
+            font-family: $fontInter;
 
         }
 
         h1 {
-            font-family: 'PP Neue Machina';
+            font-family: $fontPP;
             font-weight: bolder;
             font-size: 32px;
         }
@@ -247,14 +248,14 @@
                 p {
                     font-size: 20px;
                     font-weight: bold;
-                    font-family: 'PP Neue Machina Inktrap Ultrabold';
+                    font-family: $fontInter;
 
                 }
 
                 span {
                     color: $grey;
                     font-size: 16px;
-                    font-family: 'PP Neue Machina Inktrap Ultrabold';
+                    font-family: $fontInter;
 
                 }
 
@@ -268,7 +269,7 @@
 //About-section  Second Section 
 
 
-//About Page Third Section 
+//About Page Third Section  About EconGroup 
 .third-section {
     padding: 120px 0;
 
@@ -291,7 +292,7 @@
                     font-size: 18px;
                     width: 58%;
                     text-align: justify;
-                    font-family: 'PP Neue Machina Inktrap Ultrabold';
+                    font-family: $fontInter;
 
                     // width: 70%;
                 }
@@ -300,13 +301,13 @@
                     color: #ffff;
                     margin: 10px 0 10px 0;
                     // padding: 10px;
-                    font-family: 'PP Neue Machina Inktrap Ultrabold';
+                    font-family: $fontPP;
 
                 }
 
                 span {
                     color: $sari;
-                    font-family: 'PP Neue Machina Inktrap Ultrabold';
+                    font-family: $fontInter;
 
                 }
 
@@ -316,8 +317,8 @@
                         text-decoration: none;
                         font-size: 18px;
                         margin-top: 20px;
-                        font-family: 'PP Neue Machina Inktrap Ultrabold';
-
+                        font-family: $fontInter;
+                        font-weight: 600;
                         display: inline-block;
                         width: 158px;
                         height: 50px;
@@ -365,12 +366,12 @@
         p {
             color: $sari;
             font-size: 14px;
-            font-family: 'PP Neue Machina Inktrap Ultrabold';
+            font-family: $fontInter;
 
         }
 
         h1 {
-            font-family: 'PP Neue Machina';
+            font-family: $fontPP;
             font-weight: bolder;
             font-size: 48px;
         }
@@ -389,7 +390,7 @@
             p {
                 font-size: 22px;
                 font-weight: 650;
-                font-family: 'PP Neue Machina Inktrap Ultrabold';
+                font-family: $fontInter;
 
             }
         }
@@ -411,6 +412,7 @@
 
                 span {
                     font-size: 18px;
+                    font-family: $fontInter;
                 }
             }
         }
@@ -427,25 +429,14 @@
     .project-header {
         p {
             color: $sari;
-            font-family: 'PP Neue Machina Inktrap Ultrabold';
+            font-family: $fontInter;
 
         }
 
         h1 {
-            font-family: 'PP Neue Machina Inktrap Ultrabold';
+            font-family: $fontInter;
 
             font-weight: bolder;
-            // position: relative;
-            // &::before{
-            //     content: "";
-            //     position: absolute;
-            //     //  left: 60%;
-            //     top: 60%;
-            //     // width: 600px;
-
-            //     height: 2px ;
-            //     background-color: $grey;
-            // }
         }
     }
 
@@ -458,7 +449,7 @@
                 cursor: pointer;
                 padding: 7px;
                 transition: .1s ease-in;
-                font-family: 'PP Neue Machina Inktrap Ultrabold';
+                font-family: $fontInter;
 
                 &.active {
                     color: $qara;
@@ -498,9 +489,10 @@
             background-color: transparent;
             cursor: pointer;
             transition: .2s all ease-in;
+            font-weight: 600;
             color: $qara;
             border: 1px solid $grey;
-            font-family: 'PP Neue Machina Inktrap Ultrabold';
+            font-family: $fontInter;
 
             &:hover {
 
@@ -532,14 +524,14 @@
         padding: 50px;
 
         h1 {
-            font-family: "PP Neue Machina";
+            font-family: $fontPP;
             font-size: 48px;
             font-weight: bolder;
         }
 
         p {
             width: 50%;
-            font-family: 'PP Neue Machina Inktrap Ultrabold';
+            font-family: $fontInter;
 
         }
     }
@@ -553,12 +545,12 @@
 
     p {
         color: $sari;
-        font-family: 'PP Neue Machina Inktrap Ultrabold';
+        font-family: $fontInter;
 
     }
 
     h1 {
-        font-family: "PP Neue Machina";
+        font-family: $fontPP;
         font-size: 40px;
         font-weight: bolder;
         margin-bottom: 40px;
@@ -577,7 +569,7 @@
             a {
                 display: inline;
                 text-decoration: none;
-                font-family: 'PP Neue Machina Inktrap Ultrabold';
+                font-family: $fontInter;
 
                 padding: 0%;
 
@@ -606,7 +598,7 @@
             .left-head {
                 a {
                     text-decoration: none;
-                    font-family: 'PP Neue Machina Inktrap Ultrabold';
+                    font-family: $fontInter;
 
                     color: $sari;
                 }
@@ -614,7 +606,7 @@
 
                 h1 {
                     font-weight: bolder;
-                    font-family: 'PP Neue Machina Inktrap Ultrabold';
+                    font-family: $fontPP;
 
                     font-size: 40px;
                     color: #393131;
@@ -624,7 +616,7 @@
             .left-body {
                 p {
                     color: $grey;
-                    font-family: 'PP Neue Machina Inktrap Ultrabold';
+                    font-family: $fontInter;
 
                 }
 
@@ -634,7 +626,7 @@
                     display: inline-block;
                     transition: .2s ease-in-out;
                     margin: 0 0 10px 0;
-                    font-family: 'PP Neue Machina Inktrap Ultrabold';
+                    font-family: $fontPP;
 
                     &:hover {
                         color: $grey;
@@ -647,7 +639,7 @@
                     a {
                         text-decoration: none;
                         display: inline-block;
-                        font-family: 'PP Neue Machina Inktrap Ultrabold';
+                        font-family: $fontInter;
 
                         .wp {
                             width: 40px;
@@ -666,7 +658,7 @@
                         .insta {
                             width: 40px;
                             height: 40px;
-                            font-family: 'PP Neue Machina Inktrap Ultrabold';
+                            font-family: $fontInter;
 
                             text-align: center;
                             line-height: 40px;
@@ -725,7 +717,7 @@
 
                     p {
                         margin-right: 5px;
-                        font-family: 'PP Neue Machina Inktrap Ultrabold';
+                        font-family: $fontInter;
 
                     }
 
@@ -740,7 +732,7 @@
 
                         p {
                             cursor: pointer;
-                            font-family: 'PP Neue Machina Inktrap Ultrabold';
+                            font-family: $fontInter;
 
                             &.active {
                                 color: $qara;
@@ -755,7 +747,7 @@
                     span {
                         color: $sari;
                         transition: .2s ease-in-out;
-                        font-family: 'PP Neue Machina Inktrap Ultrabold';
+                        font-family: $fontInter;
 
 
                     }
@@ -768,10 +760,11 @@
             margin-top: 6rem;
 
             .button-submit {
+                background-color: #fff;
                 display: flex;
-                justify-content: end;
-
-
+                // justify-content: end;
+                border: none;
+                float: right;
 
                 span {
                     transition: .2s ease-in-out;
@@ -807,7 +800,7 @@
                 display: inline-block;
                 padding-bottom: 10px;
                 width: 100%;
-                font-family: 'PP Neue Machina Inktrap Ultrabold';
+                font-family: $fontInter;
                 margin-bottom: 20px;
                 border-bottom: 1px solid $grey;
                 color: $sari;
@@ -842,7 +835,7 @@
         p {
             color: $grey;
             font-size: 14px;
-            font-family: 'PP Neue Machina Inktrap Ultrabold';
+            font-family: $fontInter;
 
         }
 
@@ -929,7 +922,6 @@
                             padding: 6px;
                             position: relative;
                             z-index: 50;
-                            font-family: 'PP Neue Machina Inktrap Ultrabold';
 
                             width: 100%;
 
@@ -974,13 +966,11 @@
         .sectionContent {
             h1 {
                 font-size: 35px;
-                font-family: 'PP Neue Machina Inktrap Ultrabold';
 
             }
 
             p {
                 font-size: 20px;
-                font-family: 'PP Neue Machina Inktrap Ultrabold';
 
             }
 
@@ -990,7 +980,6 @@
                     height: 60px;
                     font-size: 18px;
                     line-height: 60px;
-                    font-family: 'PP Neue Machina Inktrap Ultrabold';
 
                 }
             }
@@ -1012,7 +1001,6 @@
 
             h1 {
                 font-size: 21px;
-                font-family: 'PP Neue Machina Inktrap Ultrabold';
 
             }
         }
@@ -1061,7 +1049,6 @@
 
                     span {
                         display: none;
-                        font-family: 'PP Neue Machina Inktrap Ultrabold';
 
                     }
                 }
@@ -1073,60 +1060,7 @@
         }
     }
 
-    //about-section responsive
 
-    //about-econGroup responsive 
-    // .about-econGroup {
-    //     padding-top: 4rem;
-
-    //     // padding: 2rem 0 2rem 2rem;
-    //     .container {
-    //         padding: 0%;
-    //         margin: 0%;
-    //     }
-
-    //     .about-page {
-    //         min-width: 100%;
-    //         border-radius: 0%;
-
-    //         .left-Content {
-    //             line-height: 28px;
-    //             width: 100%;
-    //             padding: 0%;
-    //             padding: 2rem;
-
-    //             span {
-    //                 font: 15px;
-    //                 margin-bottom: 20px;
-    //             }
-
-    //             h1 {
-    //                 font-size: 22px;
-    //             }
-
-    //             p {
-    //                 text-align: justify;
-    //                 font-size: 14px;
-    //                 width: 100%;
-    //             }
-
-    //             .button-about {
-    //                 a {
-    //                     width: 128px;
-    //                     height: 40px;
-    //                     line-height: 40px;
-    //                 }
-    //             }
-    //         }
-
-
-    //         .right-image {
-    //             display: none;
-    //         }
-    //     }
-    // }
-
-    //about-econGroup responsive 
 
     //project-section responsive
     .project-section {
@@ -1188,7 +1122,6 @@
                 padding: 6rem;
 
                 a {
-                    font-family: 'PP Neue Machina Inktrap Ultrabold';
 
                     img {
                         width: 100%;
@@ -1212,7 +1145,7 @@
 
             .right-footer {
                 .button-submit {
-                    justify-content: start;
+                    float: left;
                 }
             }
         }
@@ -1226,7 +1159,6 @@
 
             a {
                 justify-content: start;
-                font-family: 'PP Neue Machina Inktrap Ultrabold';
 
                 margin: 10px 0;
             }

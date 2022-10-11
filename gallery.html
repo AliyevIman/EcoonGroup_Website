@@ -55,30 +55,42 @@
                     <div class="logo">
                         <a href="./index.html" title="Home">
                             <img class="img-fluid" src="image/logo-main.svg" alt="EconLogo">
+
                         </a>
                     </div>
                 </div>
                 <nav>
                     <div class="col-lg-9">
-                        <div class="nav-menu ">
+                        <div class="nav-menu">
                             <ul class="menu d-flex list-unstyled">
-                                <li><a class="Home" href="./index.html"title="Home">Home</a></li>
-                                <li><a href="./about.html"title="about">About</a></li>
-                                <li><a href="#contact"title="Contact">Contact</a></li>
-                                <li><a href="./gallery.html"title="Gallery">Gallery</a></li>
+                                <li><a class="Home" href="./index.html" id="Home" title="Home">Home</a></li>
+                                <li><a href="./about.html" id="about" title="About">About</a></li>
+                                <li><a href="#contact" id="contact" title="Contact">Contact</a></li>
+                                <li><a href="./gallery.html" id="gallery" title="Gallery">Gallery</a></li>
                             </ul>
                         </div>
                         <div class="bars">
                             <img src="https://img.icons8.com/material/24/000000/menu--v1.png" />
                             <ul class=" list-unstyled nav-bar ">
-                                <li><a href="./index.html"title="Home">Home</a></li>
-                                <li><a href="./about.html"title="About">About</a></li>
-                                <li><a href="#contact"title="Contact">Contact</a></li>
-                                <li><a href="./gallery.html"title="Gallery">Gallery</a></li>
+                                <li><a href="./index.html" title="Home">Home</a></li>
+                                <li><a href="./about-min.html" title="About">About</a></li>
+                                <li><a href="#contact" title="Contact">Contact</a></li>
+                                <li><a href="./gallery.html" title="Gallery">Gallery</a></li>
                             </ul>
                         </div>
+                        <form class="dropdown">
+                            <select id="language" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <option class="dropdown-item" value="en" selected="selected">English</option>
+                                <option class="dropdown-item" value="az">Azerbaijan</option>
+                                <option class="dropdown-item" value="ru">Russian</option>
+
+                            </select>
+                        </form>
+                     
                     </div>
+                    
                 </nav>
+             
             </div>
         </div>
     </header>
@@ -284,7 +296,11 @@
     <script src="js/jquery-3.6.0.min.js"></script>
    
 
+    <script src="js/jquery.cookie.js"></script>
     <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./js/multilang.js"></script>
+    <script src="./js/indexlang.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <!-- Slickjs -->
     <script type="text/javascript" src="slick/slick.min.js"></script>

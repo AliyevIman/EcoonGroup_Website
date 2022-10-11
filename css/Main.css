@@ -20,7 +20,7 @@
   font-size: 48px;
   font-weight: 700;
   padding: 20px;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .about-pages .page-title .title-head h1::after {
   content: "";
@@ -37,7 +37,7 @@
 .about-pages .page-title .title-mid p {
   font-size: 16px;
   line-height: 29px;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .about-pages .page-title ul {
   background: rgba(255, 255, 255, 0.1);
@@ -51,7 +51,7 @@
   text-decoration: none;
   font-size: 14px;
   color: #ffffff;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .about-pages .page-title ul li a::after {
   content: "";
@@ -89,7 +89,7 @@
   font-weight: 700;
   color: #010d14;
   line-height: 41px;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: "PP Neue Machina";
 }
 .about-services .right-about .sec-title p {
   width: 80%;
@@ -98,7 +98,7 @@
   font-weight: 400;
   color: #333333;
   margin: 0;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .about-services .right-about .sec-title .y-middle {
   margin-top: 30px;
@@ -117,7 +117,7 @@
   line-height: 29px;
   font-weight: 500;
   color: #010d14;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding-left: 5px;
 }
 
@@ -143,7 +143,7 @@
   transition: all 0.3s ease;
   text-decoration: none !important;
   outline: none !important;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .gallery .gallery-item .gallery-icon a::after {
   content: "";
@@ -223,7 +223,7 @@
   margin-right: 30px;
   position: relative;
   height: 100%;
-  font-family: "PPNeueMachina-InktrapUltrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 #header nav .nav-menu .menu li a::before {
   content: "";
@@ -261,15 +261,16 @@
   padding: 20rem 0;
 }
 .firstSection .sectionContent h1 {
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: "PP Neue Machina";
   font-size: 55px;
+  font-style: normal;
   font-weight: 700;
+  color: #393131;
 }
 .firstSection .sectionContent p {
   font-size: 24px;
-  font-family: "inter";
   color: #A5A5A5;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .firstSection .sectionContent .button a {
   text-decoration: none;
@@ -286,14 +287,14 @@
   cursor: pointer;
   color: white;
   transition: 0.2s all ease-in;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .firstSection .sectionContent .button a:hover {
   background-color: #FCB401;
 }
 .firstSection .sectionContent .button a:hover a {
   color: black;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: "PP Neue Machina";
 }
 
 .about-section {
@@ -312,7 +313,7 @@
 }
 .about-section .about-Header p {
   color: #FCB401;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .about-section .about-Header h1 {
   font-family: "PP Neue Machina";
@@ -359,12 +360,12 @@
 .about-section .about-Content .content-box .content-body p {
   font-size: 20px;
   font-weight: bold;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .about-section .about-Content .content-box .content-body span {
   color: #A5A5A5;
   font-size: 16px;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .third-section {
@@ -388,22 +389,23 @@
   font-size: 18px;
   width: 58%;
   text-align: justify;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .third-section .about-page .left-Content .content h1 {
   color: white;
   margin: 10px 0 10px 0;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: "PP Neue Machina";
 }
 .third-section .about-page .left-Content .content span {
   color: #FCB401;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .third-section .about-page .left-Content .content .button-about a {
   text-decoration: none;
   font-size: 18px;
   margin-top: 20px;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
   display: inline-block;
   width: 158px;
   height: 50px;
@@ -434,7 +436,7 @@
 .services .services-header p {
   color: #FCB401;
   font-size: 14px;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .services .services-header h1 {
   font-family: "PP Neue Machina";
@@ -452,7 +454,7 @@
 .services .services-content .insulation-hader p {
   font-size: 22px;
   font-weight: 650;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .services .services-content ul {
   margin-left: 70px;
@@ -470,6 +472,7 @@
 }
 .services .services-content ul li span {
   font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .project-section {
@@ -477,10 +480,10 @@
 }
 .project-section .project-header p {
   color: #FCB401;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .project-section .project-header h1 {
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bolder;
 }
 .project-section #projects .tab li {
@@ -489,7 +492,7 @@
   cursor: pointer;
   padding: 7px;
   transition: 0.1s ease-in;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .project-section #projects .tab li.active {
   color: black;
@@ -516,9 +519,10 @@
   background-color: transparent;
   cursor: pointer;
   transition: 0.2s all ease-in;
+  font-weight: 600;
   color: black;
   border: 1px solid #A5A5A5;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .project-section .project-button a:hover {
   color: #FCB401;
@@ -547,7 +551,7 @@
 }
 .european .euro-content p {
   width: 50%;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .ourPartners {
@@ -555,7 +559,7 @@
 }
 .ourPartners p {
   color: #FCB401;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .ourPartners h1 {
   font-family: "PP Neue Machina";
@@ -575,7 +579,7 @@
 .ourPartners .slider .slide a {
   display: inline;
   text-decoration: none;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding: 0%;
 }
 .ourPartners .slider .slide a img {
@@ -588,18 +592,18 @@
 }
 #footer .footer-head .left-footer .left-head a {
   text-decoration: none;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #FCB401;
 }
 #footer .footer-head .left-footer .left-head h1 {
   font-weight: bolder;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: "PP Neue Machina";
   font-size: 40px;
   color: #393131;
 }
 #footer .footer-head .left-footer .left-body p {
   color: #A5A5A5;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 #footer .footer-head .left-footer .left-body a {
   text-decoration: none;
@@ -607,7 +611,7 @@
   display: inline-block;
   transition: 0.2s ease-in-out;
   margin: 0 0 10px 0;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: "PP Neue Machina";
 }
 #footer .footer-head .left-footer .left-body a:hover {
   color: #A5A5A5;
@@ -618,7 +622,7 @@
 #footer .footer-head .left-footer .left-body .icons a {
   text-decoration: none;
   display: inline-block;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 #footer .footer-head .left-footer .left-body .icons a .wp {
   width: 40px;
@@ -635,7 +639,7 @@
 #footer .footer-head .left-footer .left-body .icons a .insta {
   width: 40px;
   height: 40px;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   text-align: center;
   line-height: 40px;
   border-radius: 50%;
@@ -683,7 +687,7 @@
 }
 #footer .footer-head .left-footer .left-body .phone p {
   margin-right: 5px;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 #footer .footer-head .left-footer .left-body .phone:hover {
   color: black;
@@ -693,7 +697,7 @@
 }
 #footer .footer-head .left-footer .left-body ul li p {
   cursor: pointer;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 #footer .footer-head .left-footer .left-body ul li p.active {
   color: black;
@@ -704,14 +708,16 @@
 #footer .footer-head .left-footer .left-body .e-mail span {
   color: #FCB401;
   transition: 0.2s ease-in-out;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 #footer .footer-head .right-footer {
   margin-top: 6rem;
 }
 #footer .footer-head .right-footer .button-submit {
+  background-color: #fff;
   display: flex;
-  justify-content: end;
+  border: none;
+  float: right;
 }
 #footer .footer-head .right-footer .button-submit span {
   transition: 0.2s ease-in-out;
@@ -736,7 +742,7 @@
   display: inline-block;
   padding-bottom: 10px;
   width: 100%;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin-bottom: 20px;
   border-bottom: 1px solid #A5A5A5;
   color: #FCB401;
@@ -761,7 +767,7 @@
 #footer .footer-bottom p {
   color: #A5A5A5;
   font-size: 14px;
-  font-family: "PP Neue Machina Inktrap Ultrabold";
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 #footer .footer-bottom img {
   width: 100px;
@@ -815,7 +821,6 @@
     padding: 6px;
     position: relative;
     z-index: 50;
-    font-family: "PP Neue Machina Inktrap Ultrabold";
     width: 100%;
   }
   #header nav .bars ul li a::before {
@@ -842,18 +847,15 @@
   }
   .firstSection .sectionContent h1 {
     font-size: 35px;
-    font-family: "PP Neue Machina Inktrap Ultrabold";
   }
   .firstSection .sectionContent p {
     font-size: 20px;
-    font-family: "PP Neue Machina Inktrap Ultrabold";
   }
   .firstSection .sectionContent .button a {
     width: 170px;
     height: 60px;
     font-size: 18px;
     line-height: 60px;
-    font-family: "PP Neue Machina Inktrap Ultrabold";
   }
   .about-section {
     padding: 0%;
@@ -865,7 +867,6 @@
   }
   .about-section .about-Header h1 {
     font-size: 21px;
-    font-family: "PP Neue Machina Inktrap Ultrabold";
   }
   .about-section .about-Content {
     padding: 20px 0 40px 29px;
@@ -893,7 +894,6 @@
   }
   .about-section .about-Content .content-box .content-body span {
     display: none;
-    font-family: "PP Neue Machina Inktrap Ultrabold";
   }
   .about-section .about-Content .content-box.box-2 {
     margin-top: 20px;
@@ -929,9 +929,6 @@
   .ourPartners .slider .slide {
     padding: 6rem;
   }
-  .ourPartners .slider .slide a {
-    font-family: "PP Neue Machina Inktrap Ultrabold";
-  }
   .ourPartners .slider .slide a img {
     width: 100%;
   }
@@ -939,14 +936,13 @@
     margin: 10px 0 10px 0;
   }
   #footer .footer-head .right-footer .button-submit {
-    justify-content: start;
+    float: left;
   }
   #footer .footer-bottom p {
     margin: 19px 0;
   }
   #footer .footer-bottom a {
     justify-content: start;
-    font-family: "PP Neue Machina Inktrap Ultrabold";
     margin: 10px 0;
   }
 }
