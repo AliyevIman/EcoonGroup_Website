@@ -2,24 +2,24 @@ var myDictionary = {
     az: {
         'Home': 'Əsas Səhifə',
         'We Are Building The Future': 'Biz Gələcəyi Qururuq',
-        'Providing all kind of construction services': 'Hər növ tikinti xidmətlərinin verilməsi',
+        'Providing all kind of construction services': 'Hər cür infrastruktur xidmətləri',
         'About': "Haqqımızda",
         'Contact': "Əlaqə",
-        'Gallery': "Qalerya",
+        'Gallery': "Qalereya",
         'Get a Quote': "Bizimlə əlaqə qurun",
-        'Learn more about econgroup': "Econgroup haqqında ətraflı məlumat əldə edin",
-        'WELCOME TO ECONGROUP': "Econ Qrupa Xoş gəldiniz",
-        'Project Collection': "Layihə Kolleksiyası",
+        'Learn more about econgroup': "ECONGroup haqqında ətraflı məlumat əldə edin",
+        'WELCOME TO ECONGROUP': "ECONGroup'a Xoş gəldiniz",
+        'Project Collection': "Layihələr Kolleksiyası",
         'We are negotiating on the project, and after reaching anagreement, we are preparingfor its implementation': `Biz layihə ilə bağlı danışıqlar aparır, razılıq əldə etdikdən  sonra isə onun həyata keçirilməsinə başlayırıq`,
         'Staffing & Recruiting': "Kadrlar və İşə Qəbul",
-        'We recruit qualified personnel for the planned project and, if necessary, train them': "İxtisaslı kadrları işə cəlb edirik planlaşdırılan layihə üçün və əgər lazımdırsa onları öyrədirik",
+        'We recruit qualified personnel for the planned project and, if necessary, train them': "Planlaşdırılan layihə üçün ixtisaslı kadrlar işə cəlb edilir və ehtiyac yaranarsa təlim keçirilir.",
         'Delivery & Price': "Çatdırılma və Qiymət",
-        'At the final stage, as the contractor, we delivery the project with maximum effort and fair price': "Son mərhələdə podratçı olaraq layihəni maksimum səy və ədalətli qiymətlə təhvil veririk",
-        'Learn more about econgroup': "Econgroup haqqında ətraflı məlumat əldə edin",
-        'About EconGroup': "EconGroup Haqqında",
+        'At the final stage, as the contractor, we delivery the project with maximum effort and fair price': "Son mərhələdə podratçı olaraq layihəni maksimum səy və optimal qiymətlə təhvil verilir.",
+        'Learn more about econgroup': "ECONGroup haqqında ətraflı məlumat əldə edin",
+        'About EconGroup': "ECONGroup Haqqında",
         'People are the key to our success. We strive to hire qualified employees, ensure that they work with us and develop them. We always keep our team in professional shape to provide our customers with highly qualified specialists. We recruit the most experienced staff for any project, and project development is carried out with the most appropriate budget.': "İnsanlar uğurumuzun açarıdır. Biz ixtisaslaşmış işçiləri işə götürməyə, onların bizimlə işləməsini təmin etməyə və onları inkişaf etdirməyə çalışırıq. Müştərilərimizi yüksək ixtisaslı mütəxəssislərlə təmin etmək üçün komandamızı həmişə peşəkar formada saxlayırıq. İstənilən layihə üçün ən təcrübəli işçiləri işə götürür və layihənin hazırlanması ən uyğun büdcə ilə həyata keçiririk.",
         'See More': "Daha Çoxuna Bax",
-        'What we are offering': "Nə təklif edirik",
+        'What we are offering': "Təkliflərimiz",
         'Our Services': "Bizim Xidmətlərimiz",
         // 'Insulation Installing':"İzolyasiya quraşdırılması",
         // 'Blanket Insulation':"Termal izolyasiyası",
@@ -38,8 +38,27 @@ var myDictionary = {
         'Our Partners': "Tərəfdaşlarımız",
         'Request Call': "Zəng edin",
         'Contact Us': "Bizimlə Əlaqə saxlayın",
-        'Interested work in Europe or other world countries Write to us!': "Avropa və ya digər dünya ölkələrində işləmək istəyənlər Bizə yazın!",
+        'Interested work in Europe or other world countries Write to us!': "Avropalı şirkətlərdə əmək fəaliyyəti imkanı əldə etmək istəyirsiniz? Bizimlə əlaqə saxlayın!",
         'Our Office: ': "Ofisimiz",
+        //--------------------------------------------------------About 
+        'About Us': "Haqqımızda",
+        'ECONGroup serves as a contractor in manufacturing and infrastructure.From the day of its establishment, our company provides special support in the projects of our customers with maximum effort.': "ECONGroup istehsal və infrastrukturda podratçı kimi xidmət edir.Şirkətimiz yarandığı gündən etibarən layihələrində müştərilərimizə maksimum səylə  dəstək verir.",
+        'Home': "Əsas Səhifə",
+        'About': "Haqqımızda",
+        'WHO ARE WE': "BİZ KİMİK",
+        'Scaffolding, as our main area of specialization, has continued optimally with our projects over the years. Our goal is to evaluate the important nuances for the current conditions, to attract specialist staff to the field of work and to constantly support our clients in their projects.':"Scafolding, bizim əsas ixtisas sahəmiz olaraq, illər ərzində layihələrimizi optimal şəkildə davam etdirir. Məqsədimiz mövcud şərtlər üçün vacib nüansları qiymətləndirmək, iş sahəsinə mütəxəssis heyəti cəlb etmək və müştərilərimizə layihələrində daim dəstək olmaqdır.",
+        //-----------------Gallery
+        'Gallery':"Qalereya",
+        'You can browse our successfully completed and ongoing projects from this page.':"Uğurla tamamlanan və davam edən layihələrimizə bu səhifədən baxa bilərsiniz.",
+        '':"",
+        '':"",
+        '':"",
+        '':"",
+        '':"",
+
+
+
+
     },
     ru: {
         'Home': "Главная страница",
@@ -82,8 +101,16 @@ var myDictionary = {
         'Contact Us': "Свяжитесь с нами",
         'Interested work in Europe or other world countries Write to us!': "Те, кто хочет работать в Европе или других странах мира, пишите нам!",
         'Our Office: ': "Наш офис",
+        //--------------------------------------------------------About 
+        'About Us': "о нас",
+        'ECONGroup serves as a contractor in manufacturing and infrastructure.From the day of its establishment, our company provides special support in the projects of our customers with maximum effort.':"ECONGroup выступает в качестве подрядчика в области производства и инфраструктуры.Со дня своего основания наша компания оказывает особую поддержку в проектах наши клиенты с максимальными усилиями.",
+        'Home': "Главная страница",
+        'About': "о нас",
+        'WHO ARE WE':"КТО МЫ",
+        'Scaffolding, as our main area of specialization, has continued optimally with our projects over the years. Our goal is to evaluate the important nuances for the current conditions, to attract specialist staff to the field of work and to constantly support our clients in their projects.':"Строительные леса, как наша основная область специализации, на протяжении многих лет оптимально использовались в наших проектах. Наша цель – оценить важные нюансы для текущих условий, привлечь в поле работы специалистов и постоянно поддерживать наших клиентов в их проектах.",
+        'Gallery':"В галерею",
+        'You can browse our successfully completed and ongoing projects from this page.':"Вы можете просмотреть наши успешно завершенные и текущие проекты на этой странице."
 
-        
     }
 }
 $.tr.dictionary(myDictionary);
@@ -143,12 +170,20 @@ $(document).ready(function () {
         $('#InterestedWork').text(tr('Interested work in Europe or other world countries Write to us!'));
         $('#OurOffice').text(tr('Our Office: '));
         $('#Home').text(tr('Home'));
+        ///---------
+        $('#AboutUs').text(tr('About Us'));
+        $('#AboutPageContent').text(tr('ECONGroup serves as a contractor in manufacturing and infrastructure.From the day of its establishment, our company provides special support in the projects of our customers with maximum effort.'));
+        $('#Homes').text(tr('Home'));
+        $('#About').text(tr('About'));
+
+        $('#WhoAreWe').text(tr('WHO ARE WE'));
+        $('#WhoWeContent').text(tr('Scaffolding, as our main area of specialization, has continued optimally with our projects over the years. Our goal is to evaluate the important nuances for the current conditions, to attract specialist staff to the field of work and to constantly support our clients in their projects.'));
+        $('#Gallery').text(tr('Gallery'));
+        $('#Gallerys').text(tr('Gallery'));
+        $('#GalleryConent').text(tr('You can browse our successfully completed and ongoing projects from this page.'));
         $('#').text(tr(''));
         $('#').text(tr(''));
-        $('#').text(tr(''));
-        $('#').text(tr(''));
-        $('#').text(tr(''));
-        $('#').text(tr(''));
+
 
 
     });

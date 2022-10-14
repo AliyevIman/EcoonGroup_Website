@@ -62,11 +62,19 @@
                 <nav>
                     <div class="col-lg-9">
                         <div class="nav-menu">
-                            <ul class="menu d-flex list-unstyled">
+                            <ul class="menu d-flex justify-content-center align-items-center list-unstyled">
                                 <li><a class="Home" href="./index.html" id="Home" title="Home">Home</a></li>
                                 <li><a href="./about.html" id="about" title="About">About</a></li>
                                 <li><a href="#contact" id="contact" title="Contact">Contact</a></li>
                                 <li><a href="./gallery.html" id="gallery" title="Gallery">Gallery</a></li>
+                                <form class=" d-flex ">
+                                    <select id="language"  type="button" >
+                                        <option  value="en" selected="selected">English</option>
+                                        <option  value="az">Azerbaijan</option>
+                                        <option  value="ru">Russian</option>
+        
+                                    </select>
+                                </form>
                             </ul>
                         </div>
                         <div class="bars">
@@ -78,14 +86,7 @@
                                 <li><a href="./gallery.html" title="Gallery">Gallery</a></li>
                             </ul>
                         </div>
-                        <form class="dropdown">
-                            <select id="language" class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                <option class="dropdown-item" value="en" selected="selected">English</option>
-                                <option class="dropdown-item" value="az">Azerbaijan</option>
-                                <option class="dropdown-item" value="ru">Russian</option>
-
-                            </select>
-                        </form>
+                   
                      
                     </div>
                     
@@ -102,16 +103,16 @@
             <div class="container">
                 <div class="page-title">
                     <div class="title-head">
-                        <h1>Gallery</h1>
+                        <h1 id="Gallery" >Gallery</h1>
                     </div>
                     <div class="title-mid">
-                        <p>You can browse our successfully completed and ongoing projects from this page.</p>
+                        <p id="GalleryConent">You can browse our successfully completed and ongoing projects from this page.</p>
                     </div>
                     <ul class="list-unstyled d-flex justify-content-center">
                         <li>
-                            <a href="./index.html" title="Home">Home</a>
+                            <a href="./index.html" id="Homes" title="Home">Home</a>
                         </li>
-                        <li>
+                        <li id="Gallerys" >
                             Gallery
                         </li>
                     </ul>
@@ -204,29 +205,18 @@
                 <div class="col-lg-6">
                     <div class="left-footer">
                         <div class="left-head">
-                            <a href="tel:050-423-64-10">Request Call</a>
-                            <h1>Contact Us</h1>
+                            <a id="RequestCall" href="tel:050-423-64-10">Request Call</a>
+                            <h1 id="ContactUs">Contact Us</h1>
                         </div>
                         <div class="left-body">
-                            <p>Interested work in Europe or other world countries Write to us!</p>
-                            <p>Our Office: </p>
-                            <a class="location" href="https://g.page/caspianplaza?share"title="Our Location" target="_blank">Cəfər
+                            <p id="InterestedWork">Interested work in Europe or other world countries Write to us!</p>
+                            <p id="OurOffice">Our Office: </p>
+                            <a class="location" href="https://g.page/caspianplaza?share"
+                                title="caspian plaza location google map" target="_blank">Cəfər
                                 Cabbarli ,44</a>
-                            <p>Language:</p>
-                            <ul class="list-unstyled d-flex ">
-                                <li>
-                                    <p>Eng</p>
-                                </li>
-                                <li>
-                                    <p>Aze</p>
-                                </li>
-                                <li>
-                                    <p>Rus</p>
-                                </li>
-                            </ul>
                             <p class="e-mail">Email: <span>info@econstructiongroup.com</span></p>
 
-                            <a class="phone d-flex" href="tel:050-423-64-10" title="telephone number">
+                            <a class="phone d-flex" title="telephone number" href="tel:050-423-64-10">
                                 <p>Tel:</p> (+994)504236410
                             </a>
                             <div class="icons d-flex">
@@ -249,22 +239,18 @@
                         <form action="mailto:info@econstructiongroup.com" method="post"
                             enctype=”multipart/form-data” name="EmailForm">
                             <input class="fullName" type=”text” placeholder="Full name" name=”ContactName”><br><br>
-
                             <a class="sendEmail"
                                 href="mailto:info@econstructiongroup.com">info@econstructiongroup.com</a>
-                            <br> 
-
+                            <br>
                             <input class="fullName" type="text" name="texthere" placeholder="Text your message here"
                                 name=”ContactCommentt”>
                             </input> <br> <br>
-
-                            <div class="button-submit">
-                                <input class="sendButton" type="submit" value="Send Email">
-                                <span class="material-symbols-outlined">
+                            <button class="button-submit">
+                                <input class="sendButton" type="submit"  value="Send Email">
+                                <span class="material-symbols-outlined"  value="Send Email">
                                     arrow_right_alt
                                 </span>
-                            </div>
-
+                            </button>
                         </form>
                     </div>
                 </div>
@@ -283,12 +269,14 @@
                 </div>
                 <div class="col-lg-4 d-flex justify-content-end align-items-center">
                     Created by:
-                    <img class="img-fluid " src="image/MYLogoWithName.jpg" alt="aliyeffLogo">
+                    <a href="https://aliyeviman.github.io/Portfolio/" target="_blank">
+                        <img class="img-fluid " src="image/MYLogoWithName.jpg" alt="aliyeffLogo">
+
+                    </a>
                 </div>
             </div>
         </div>
     </div>
-
 </footer>
 
 <!-- Foooter -->

@@ -53,7 +53,7 @@
                     a {
                         text-decoration: none;
                         color: #393131;
-                        display: block;
+                        display: inline-block;
                         margin-top: 40px;
                         margin-right: 30px;
                         position: relative;
@@ -64,7 +64,7 @@
                             content: "";
                             position: absolute;
                             left: 0%;
-                            top: 88%;
+                            top: 100%;
                             width: 0;
                             height: 3px;
                             visibility: hidden;
@@ -82,6 +82,36 @@
                                 visibility: visible;
                             }
                         }
+                    }
+                }
+
+            }
+
+            form {
+                select {
+                    cursor: pointer;
+                    display: inline-block;
+                    position: relative;
+                    font-size: 16px;
+                    color: $sari;
+                    border: none;
+                    background-color: #fff;
+                    width: $select-width;
+                    height: $select-height;
+                    font-weight: 300;
+                    background-color: #fff;
+                    box-shadow: 1px 2px 10px -2px rgba(0,0,0,0.3);
+                    border-radius: 3px;
+                    transition: all 375ms ease-in-out;
+                    option {
+                        border-bottom:1px solid #E0E0E0;
+                        background-color: #F5F5F5;
+                        list-style-type: none;
+                        padding: 10px 2%;
+                        margin: 0px;  
+                        transition: all 275ms ease-in-out;
+                        display: block;
+                        cursor:pointer;
                     }
                 }
             }
@@ -834,6 +864,8 @@
 
         p {
             color: $grey;
+            padding: 0;
+            margin: 0%;
             font-size: 14px;
             font-family: $fontInter;
 
